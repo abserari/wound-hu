@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blog on Wound</title>
-    <link>http://abser.top/blog/</link>
+    <link>/blog/</link>
     <description>Recent content in Blog on Wound</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 25 Nov 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://abser.top/blog/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/blog/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Hugo&#43;Github搭建个人博客</title>
-      <link>http://abser.top/blog/hugo-github-blog/</link>
+      <link>/blog/hugo-github-blog/</link>
       <pubDate>Sun, 25 Nov 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://abser.top/blog/hugo-github-blog/</guid>
+      <guid>/blog/hugo-github-blog/</guid>
       <description>前言介绍  Hugo是什么?   Hugo是一种通用的网站框架。严格来说，Hugo应该被称作静态页面生成引擎。
  官网https://gohugo.io/
  静态页面生成引擎又是什么?   静态页面生成引擎从字面上来理解，就是将你的内容生成静态网站。所谓“静态”的含义其实反映在网站页面的生成的时间。一般的web服务器（WordPress, Ghost, Drupal等等）在收到页面请求时，需要调用数据库生成页面（也就是HTML代码），再返回给用户请求。而静态网站则不需要在收到请求后生成页面，而是在整个网站建立起之前就将所有的页面全部生成完成，页面一经生成便称为静态文件，访问时直接返回现成的静态页面，不需要数据库的参与。
@@ -31,10 +31,10 @@ $ brew new Hugo  当然你也可以在这里直接下载对应系统的binary文
     
     <item>
       <title>HyperLogLog</title>
-      <link>http://abser.top/blog/hyperloglog%E7%AE%97%E6%B3%95/</link>
+      <link>/blog/hyperloglog%E7%AE%97%E6%B3%95/</link>
       <pubDate>Sun, 25 Nov 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://abser.top/blog/hyperloglog%E7%AE%97%E6%B3%95/</guid>
+      <guid>/blog/hyperloglog%E7%AE%97%E6%B3%95/</guid>
       <description>更好的阅读参见我的语雀
 基数计数基本概念 基数计数(cardinality counting)通常用来统计一个集合中不重复的元素个数，例如统计某个网站的UV，或者用户搜索网站的关键词数量。数据分析、网络监控及数据库优化等领域都会涉及到基数计数的需求。 要实现基数计数，最简单的做法是记录集合中所有不重复的元素集合，当新来一个元素，若中不包含元素​，则将加入，否则不加入，计数值就是​的元素数量。这种做法存在两个问题：
  当统计的数据量变大时，相应的存储内存也会线性增长 当集合变大，判断其是否包含新加入元素​的成本变大  概率算法 实际上目前还没有发现更好的在大数据场景中准确计算基数的高效算法，因此在不追求绝对准确的情况下，使用概率算法算是一个不错的解决方案。概率算法不直接存储数据集合本身，通过一定的概率统计方法预估基数值，这种方法可以大大节省内存，同时保证误差控制在一定范围内。目前用于基数计数的概率算法包括:
@@ -62,10 +62,10 @@ LogLogCounting 均匀随机化 与LC一样，在使用LLC之前需要选取一�
     
     <item>
       <title>Create A Service By Gin-Gorm</title>
-      <link>http://abser.top/blog/gin-grom%E5%88%9B%E5%BB%BA%E6%9C%8D%E5%8A%A1/</link>
+      <link>/blog/gin-grom%E5%88%9B%E5%BB%BA%E6%9C%8D%E5%8A%A1/</link>
       <pubDate>Sun, 11 Nov 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://abser.top/blog/gin-grom%E5%88%9B%E5%BB%BA%E6%9C%8D%E5%8A%A1/</guid>
+      <guid>/blog/gin-grom%E5%88%9B%E5%BB%BA%E6%9C%8D%E5%8A%A1/</guid>
       <description>原文链接：https://medium.com/@cgrant/developing-a-simple-crud-api-with-go-gin-and-gorm-df87d98e6ed1 翻译：devabel 整理：abser
 入门 这个例子假设你已经安装并运行go语言的环境。如果您还没有安装，请转到http://cgrant.io/tutorials/go/getting-started-with-go/获取快速入门。
 Gin Web框架 由于我们将通过HTTP提供我们的API，因此我们需要一个Web框架来处理路由并提供请求。有许多框架可用，具有不同的功能和性能指标。在这个例子中，我们将使用Gin框架https://github.com/gin-gonic/gin 。由于速度和简单性，Gin是API开发的一个很好的框架。
@@ -78,10 +78,10 @@ $ go run main.go [GIN-debug] [WARNING] Running in “debug” mode. Switch to �
     
     <item>
       <title>Learn Gorm</title>
-      <link>http://abser.top/blog/gorm-%E5%85%A5%E9%97%A8/</link>
+      <link>/blog/gorm-%E5%85%A5%E9%97%A8/</link>
       <pubDate>Sun, 11 Nov 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://abser.top/blog/gorm-%E5%85%A5%E9%97%A8/</guid>
+      <guid>/blog/gorm-%E5%85%A5%E9%97%A8/</guid>
       <description>ORM（Object Relation Mapping），对象关系映射，实际上就是对数据库的操作进行封装，对上层开发人员屏蔽数据操作的细节，开发人员看到的就是一个个对象，大大简化了开发工作，提高了生产效率
 好了，下面我以这个点赞评论系统为例，介绍一下 gorm 的简单用法，以下使用的完整代码：https://github.com/hatlonely/...
 #gorm 用法介绍 ##库安装 go get -u github.com/jinzhu/gorm ##数据库连接
@@ -95,30 +95,30 @@ type Like struct { ID int `gorm:&amp;quot;primary_key&amp;quot;` Ip string `gorm
     
     <item>
       <title>Creating a New Theme</title>
-      <link>http://abser.top/blog/creating-a-new-theme/</link>
+      <link>/blog/creating-a-new-theme/</link>
       <pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://abser.top/blog/creating-a-new-theme/</guid>
+      <guid>/blog/creating-a-new-theme/</guid>
       <description>Introduction This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&amp;rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&amp;rsquo;t cover using CSS to style your theme.
 We&amp;rsquo;ll start with creating a new site with a very basic template.</description>
     </item>
     
     <item>
       <title>(Hu)go Template Primer</title>
-      <link>http://abser.top/blog/goisforlovers/</link>
+      <link>/blog/goisforlovers/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://abser.top/blog/goisforlovers/</guid>
+      <guid>/blog/goisforlovers/</guid>
       <description>Hugo uses the excellent go html/template library for its template engine. It is an extremely lightweight engine that provides a very small amount of logic. In our experience that it is just the right amount of logic to be able to create a good static website. If you have used other template systems from different languages or frameworks you will find a lot of similarities in go templates.
 This document is a brief primer on using go templates.</description>
     </item>
     
     <item>
       <title>Getting Started with Hugo</title>
-      <link>http://abser.top/blog/hugoisforlovers/</link>
+      <link>/blog/hugoisforlovers/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://abser.top/blog/hugoisforlovers/</guid>
+      <guid>/blog/hugoisforlovers/</guid>
       <description>&lt;h2 id=&#34;step-1-install-hugo&#34;&gt;Step 1. Install Hugo&lt;/h2&gt;
 
 &lt;p&gt;Go to &lt;a href=&#34;https://github.com/spf13/hugo/releases&#34;&gt;hugo releases&lt;/a&gt; and download the
@@ -126,15 +126,15 @@ appropriate version for your os and architecture.&lt;/p&gt;
 
 &lt;p&gt;Save it somewhere specific as we will be using it in the next step.&lt;/p&gt;
 
-&lt;p&gt;More complete instructions are available at &lt;a href=&#34;http://abser.top/overview/installing/&#34;&gt;installing hugo&lt;/a&gt;&lt;/p&gt;</description>
+&lt;p&gt;More complete instructions are available at &lt;a href=&#34;/overview/installing/&#34;&gt;installing hugo&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Migrate to Hugo from Jekyll</title>
-      <link>http://abser.top/blog/migrate-from-jekyll/</link>
+      <link>/blog/migrate-from-jekyll/</link>
       <pubDate>Mon, 10 Mar 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://abser.top/blog/migrate-from-jekyll/</guid>
+      <guid>/blog/migrate-from-jekyll/</guid>
       <description>&lt;h2 id=&#34;move-static-content-to-static&#34;&gt;Move static content to &lt;code&gt;static&lt;/code&gt;&lt;/h2&gt;
 
 &lt;p&gt;Jekyll has a rule that any directory not starting with &lt;code&gt;_&lt;/code&gt; will be copied as-is to the &lt;code&gt;_site&lt;/code&gt; output. Hugo keeps all static content under &lt;code&gt;static&lt;/code&gt;. You should therefore move it all there.

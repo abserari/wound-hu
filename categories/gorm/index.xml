@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Gorm on Wound</title>
-    <link>http://abser.top/categories/gorm/</link>
+    <link>/categories/gorm/</link>
     <description>Recent content in Gorm on Wound</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 11 Nov 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://abser.top/categories/gorm/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/categories/gorm/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Create A Service By Gin-Gorm</title>
-      <link>http://abser.top/blog/gin-grom%E5%88%9B%E5%BB%BA%E6%9C%8D%E5%8A%A1/</link>
+      <link>/blog/gin-grom%E5%88%9B%E5%BB%BA%E6%9C%8D%E5%8A%A1/</link>
       <pubDate>Sun, 11 Nov 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://abser.top/blog/gin-grom%E5%88%9B%E5%BB%BA%E6%9C%8D%E5%8A%A1/</guid>
+      <guid>/blog/gin-grom%E5%88%9B%E5%BB%BA%E6%9C%8D%E5%8A%A1/</guid>
       <description>原文链接：https://medium.com/@cgrant/developing-a-simple-crud-api-with-go-gin-and-gorm-df87d98e6ed1 翻译：devabel 整理：abser
 入门 这个例子假设你已经安装并运行go语言的环境。如果您还没有安装，请转到http://cgrant.io/tutorials/go/getting-started-with-go/获取快速入门。
 Gin Web框架 由于我们将通过HTTP提供我们的API，因此我们需要一个Web框架来处理路由并提供请求。有许多框架可用，具有不同的功能和性能指标。在这个例子中，我们将使用Gin框架https://github.com/gin-gonic/gin 。由于速度和简单性，Gin是API开发的一个很好的框架。
@@ -29,10 +29,10 @@ $ go run main.go [GIN-debug] [WARNING] Running in “debug” mode. Switch to �
     
     <item>
       <title>Learn Gorm</title>
-      <link>http://abser.top/blog/gorm-%E5%85%A5%E9%97%A8/</link>
+      <link>/blog/gorm-%E5%85%A5%E9%97%A8/</link>
       <pubDate>Sun, 11 Nov 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://abser.top/blog/gorm-%E5%85%A5%E9%97%A8/</guid>
+      <guid>/blog/gorm-%E5%85%A5%E9%97%A8/</guid>
       <description>ORM（Object Relation Mapping），对象关系映射，实际上就是对数据库的操作进行封装，对上层开发人员屏蔽数据操作的细节，开发人员看到的就是一个个对象，大大简化了开发工作，提高了生产效率
 好了，下面我以这个点赞评论系统为例，介绍一下 gorm 的简单用法，以下使用的完整代码：https://github.com/hatlonely/...
 #gorm 用法介绍 ##库安装 go get -u github.com/jinzhu/gorm ##数据库连接

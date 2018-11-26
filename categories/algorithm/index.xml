@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Algorithm on Wound</title>
-    <link>http://abser.top/categories/algorithm/</link>
+    <link>/categories/algorithm/</link>
     <description>Recent content in Algorithm on Wound</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 25 Nov 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://abser.top/categories/algorithm/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/categories/algorithm/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>HyperLogLog</title>
-      <link>http://abser.top/blog/hyperloglog%E7%AE%97%E6%B3%95/</link>
+      <link>/blog/hyperloglog%E7%AE%97%E6%B3%95/</link>
       <pubDate>Sun, 25 Nov 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://abser.top/blog/hyperloglog%E7%AE%97%E6%B3%95/</guid>
+      <guid>/blog/hyperloglog%E7%AE%97%E6%B3%95/</guid>
       <description>更好的阅读参见我的语雀
 基数计数基本概念 基数计数(cardinality counting)通常用来统计一个集合中不重复的元素个数，例如统计某个网站的UV，或者用户搜索网站的关键词数量。数据分析、网络监控及数据库优化等领域都会涉及到基数计数的需求。 要实现基数计数，最简单的做法是记录集合中所有不重复的元素集合，当新来一个元素，若中不包含元素​，则将加入，否则不加入，计数值就是​的元素数量。这种做法存在两个问题：
  当统计的数据量变大时，相应的存储内存也会线性增长 当集合变大，判断其是否包含新加入元素​的成本变大  概率算法 实际上目前还没有发现更好的在大数据场景中准确计算基数的高效算法，因此在不追求绝对准确的情况下，使用概率算法算是一个不错的解决方案。概率算法不直接存储数据集合本身，通过一定的概率统计方法预估基数值，这种方法可以大大节省内存，同时保证误差控制在一定范围内。目前用于基数计数的概率算法包括:

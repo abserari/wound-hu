@@ -2,66 +2,66 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Wound</title>
-    <link>http://abser.top/categories/</link>
+    <link>/categories/</link>
     <description>Recent content in Categories on Wound</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 22 Jun 2017 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://abser.top/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title></title>
-      <link>http://abser.top/categories/</link>
+      <link>/categories/</link>
       <pubDate>Thu, 22 Jun 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://abser.top/categories/</guid>
+      <guid>/categories/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Algorithm</title>
-      <link>http://abser.top/categories/algorithm/</link>
+      <link>/categories/algorithm/</link>
       <pubDate>Sun, 25 Nov 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://abser.top/categories/algorithm/</guid>
+      <guid>/categories/algorithm/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Go</title>
-      <link>http://abser.top/categories/go/</link>
+      <link>/categories/go/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://abser.top/categories/go/</guid>
+      <guid>/categories/go/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Gorm</title>
-      <link>http://abser.top/categories/gorm/</link>
+      <link>/categories/gorm/</link>
       <pubDate>Sun, 11 Nov 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://abser.top/categories/gorm/</guid>
+      <guid>/categories/gorm/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Hugo</title>
-      <link>http://abser.top/categories/hugo/</link>
+      <link>/categories/hugo/</link>
       <pubDate>Sun, 25 Nov 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://abser.top/categories/hugo/</guid>
+      <guid>/categories/hugo/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Jekyll</title>
-      <link>http://abser.top/categories/jekyll/</link>
+      <link>/categories/jekyll/</link>
       <pubDate>Mon, 10 Mar 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://abser.top/categories/jekyll/</guid>
+      <guid>/categories/jekyll/</guid>
       <description></description>
     </item>
     
