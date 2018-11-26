@@ -3,141 +3,141 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://abser.com/blog/hugo-github-blog/</loc>
+    <loc>http://abser.top/blog/hugo-github-blog/</loc>
     <lastmod>2018-11-25T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://abser.com/blog/hyperloglog%E7%AE%97%E6%B3%95/</loc>
+    <loc>http://abser.top/blog/hyperloglog%E7%AE%97%E6%B3%95/</loc>
     <lastmod>2018-11-25T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://abser.com/about/</loc>
+    <loc>http://abser.top/about/</loc>
     <lastmod>2018-11-11T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://abser.com/blog/gin-grom%E5%88%9B%E5%BB%BA%E6%9C%8D%E5%8A%A1/</loc>
+    <loc>http://abser.top/blog/gin-grom%E5%88%9B%E5%BB%BA%E6%9C%8D%E5%8A%A1/</loc>
     <lastmod>2018-11-11T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://abser.com/blog/gorm-%E5%85%A5%E9%97%A8/</loc>
+    <loc>http://abser.top/blog/gorm-%E5%85%A5%E9%97%A8/</loc>
     <lastmod>2018-11-11T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://abser.com/itemized/item1/</loc>
+    <loc>http://abser.top/itemized/item1/</loc>
     <lastmod>2017-06-22T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://abser.com/itemized/item2/</loc>
+    <loc>http://abser.top/itemized/item2/</loc>
     <lastmod>2017-06-22T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://abser.com/itemized/item3/</loc>
+    <loc>http://abser.top/itemized/item3/</loc>
     <lastmod>2017-06-22T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://abser.com/itemized/item4/</loc>
+    <loc>http://abser.top/itemized/item4/</loc>
     <lastmod>2017-06-22T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://abser.com/blog/creating-a-new-theme/</loc>
+    <loc>http://abser.top/blog/creating-a-new-theme/</loc>
     <lastmod>2014-09-28T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://abser.com/blog/goisforlovers/</loc>
+    <loc>http://abser.top/blog/goisforlovers/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://abser.com/blog/hugoisforlovers/</loc>
+    <loc>http://abser.top/blog/hugoisforlovers/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://abser.com/blog/migrate-from-jekyll/</loc>
+    <loc>http://abser.top/blog/migrate-from-jekyll/</loc>
     <lastmod>2014-03-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://abser.com/categories/</loc>
+    <loc>http://abser.top/categories/</loc>
     <lastmod>2017-06-22T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://abser.com/categories/algorithm/</loc>
+    <loc>http://abser.top/categories/algorithm/</loc>
     <lastmod>2018-11-25T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://abser.com/blog/</loc>
+    <loc>http://abser.top/blog/</loc>
     <lastmod>2018-11-25T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://abser.com/categories/</loc>
+    <loc>http://abser.top/categories/</loc>
     <lastmod>2017-06-22T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://abser.com/contact/</loc>
+    <loc>http://abser.top/contact/</loc>
   </url>
   
   <url>
-    <loc>http://abser.com/categories/go/</loc>
+    <loc>http://abser.top/categories/go/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://abser.com/categories/gorm/</loc>
+    <loc>http://abser.top/categories/gorm/</loc>
     <lastmod>2018-11-11T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://abser.com/categories/hugo/</loc>
+    <loc>http://abser.top/categories/hugo/</loc>
     <lastmod>2018-11-25T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://abser.com/itemized/</loc>
+    <loc>http://abser.top/itemized/</loc>
     <lastmod>2017-06-22T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://abser.com/categories/jekyll/</loc>
+    <loc>http://abser.top/categories/jekyll/</loc>
     <lastmod>2014-03-10T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://abser.com/tags/</loc>
+    <loc>http://abser.top/tags/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://abser.com/</loc>
+    <loc>http://abser.top/</loc>
     <lastmod>2018-11-25T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://abser.com/tags/tutorial/</loc>
+    <loc>http://abser.top/tags/tutorial/</loc>
     <lastmod>2014-09-28T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>

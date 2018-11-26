@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Hugo on Wound</title>
-    <link>http://abser.com/categories/hugo/</link>
+    <link>http://abser.top/categories/hugo/</link>
     <description>Recent content in Hugo on Wound</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 25 Nov 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://abser.com/categories/hugo/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://abser.top/categories/hugo/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Hugo&#43;Github搭建个人博客</title>
-      <link>http://abser.com/blog/hugo-github-blog/</link>
+      <link>http://abser.top/blog/hugo-github-blog/</link>
       <pubDate>Sun, 25 Nov 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://abser.com/blog/hugo-github-blog/</guid>
+      <guid>http://abser.top/blog/hugo-github-blog/</guid>
       <description>前言介绍  Hugo是什么?   Hugo是一种通用的网站框架。严格来说，Hugo应该被称作静态页面生成引擎。
  官网https://gohugo.io/
  静态页面生成引擎又是什么?   静态页面生成引擎从字面上来理解，就是将你的内容生成静态网站。所谓“静态”的含义其实反映在网站页面的生成的时间。一般的web服务器（WordPress, Ghost, Drupal等等）在收到页面请求时，需要调用数据库生成页面（也就是HTML代码），再返回给用户请求。而静态网站则不需要在收到请求后生成页面，而是在整个网站建立起之前就将所有的页面全部生成完成，页面一经生成便称为静态文件，访问时直接返回现成的静态页面，不需要数据库的参与。
@@ -31,20 +31,20 @@ $ brew new Hugo  当然你也可以在这里直接下载对应系统的binary文
     
     <item>
       <title>Creating a New Theme</title>
-      <link>http://abser.com/blog/creating-a-new-theme/</link>
+      <link>http://abser.top/blog/creating-a-new-theme/</link>
       <pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://abser.com/blog/creating-a-new-theme/</guid>
+      <guid>http://abser.top/blog/creating-a-new-theme/</guid>
       <description>Introduction This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&amp;rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&amp;rsquo;t cover using CSS to style your theme.
 We&amp;rsquo;ll start with creating a new site with a very basic template.</description>
     </item>
     
     <item>
       <title>Getting Started with Hugo</title>
-      <link>http://abser.com/blog/hugoisforlovers/</link>
+      <link>http://abser.top/blog/hugoisforlovers/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://abser.com/blog/hugoisforlovers/</guid>
+      <guid>http://abser.top/blog/hugoisforlovers/</guid>
       <description>&lt;h2 id=&#34;step-1-install-hugo&#34;&gt;Step 1. Install Hugo&lt;/h2&gt;
 
 &lt;p&gt;Go to &lt;a href=&#34;https://github.com/spf13/hugo/releases&#34;&gt;hugo releases&lt;/a&gt; and download the
@@ -52,15 +52,15 @@ appropriate version for your os and architecture.&lt;/p&gt;
 
 &lt;p&gt;Save it somewhere specific as we will be using it in the next step.&lt;/p&gt;
 
-&lt;p&gt;More complete instructions are available at &lt;a href=&#34;http://abser.com/overview/installing/&#34;&gt;installing hugo&lt;/a&gt;&lt;/p&gt;</description>
+&lt;p&gt;More complete instructions are available at &lt;a href=&#34;http://abser.top/overview/installing/&#34;&gt;installing hugo&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Migrate to Hugo from Jekyll</title>
-      <link>http://abser.com/blog/migrate-from-jekyll/</link>
+      <link>http://abser.top/blog/migrate-from-jekyll/</link>
       <pubDate>Mon, 10 Mar 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://abser.com/blog/migrate-from-jekyll/</guid>
+      <guid>http://abser.top/blog/migrate-from-jekyll/</guid>
       <description>&lt;h2 id=&#34;move-static-content-to-static&#34;&gt;Move static content to &lt;code&gt;static&lt;/code&gt;&lt;/h2&gt;
 
 &lt;p&gt;Jekyll has a rule that any directory not starting with &lt;code&gt;_&lt;/code&gt; will be copied as-is to the &lt;code&gt;_site&lt;/code&gt; output. Hugo keeps all static content under &lt;code&gt;static&lt;/code&gt;. You should therefore move it all there.
