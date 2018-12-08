@@ -1,13 +1,3 @@
-
-
-
-    
-        
-    
-
-
-
-
 <!DOCTYPE HTML>
 
 <html>
@@ -20,10 +10,15 @@
              "@type": "WebPage",
              "@id": "/"
         },
-        "articleSection" : "categories",
-        "name" : "Gorm",
-        "headline" : "Gorm",
-        "description" : "",
+        "articleSection" : "blog",
+        "name" : "从排序数组中删除重复项",
+        "headline" : "从排序数组中删除重复项",
+        "description" : "问题描述 给定一个排序数组，你需要在原地删除重复出现的元素，使得每个元素只出现一次，返回移除后数组的新长度。
+不要使用额外的数组空间，你必须在原地修改输入数组并在使用 O(1) 额外空间的条件下完成。
+示例 1 给定数组 nums = [1,1,2], 函数应该返回新的长度 2, 并且原数组 nums 的前两个元素被修改为 1, 2。 你不需要考虑数组中超出新长度后面的元素。  示例 2 给定 nums = [0,0,1,1,1,2,2,3,3,4], 函数应该返回新的长度 5, 并且原数组 nums 的前五个元素被修改为 0, 1, 2, 3, 4。 你不需要考虑数组中超出新长度后面的元素。  实现 C++ 版本 使用了 stl 库中的方法 unique 和 erase，最后使用 size 方法返回长度
+unique 的是实现原理是，比较两个相邻的元素，如果元素相同则将它移到最后去，并且最后返回一个非冗余元素的迭代器
+然后用 erase 删除冗余的元素。
+static bool init = []() { ios::sync_with_stdio(false); cin.tie(nullptr); return true; }(); class Solution { public: int removeDuplicates(vector&lt;int&gt;&amp; nums) { nums.",
         "inLanguage" : "en",
         "author" : "",
         "creator" : "",
@@ -31,15 +26,17 @@
         "accountablePerson" : "",
         "copyrightHolder" : "",
         "copyrightYear" : "2018",
-        "datePublished": "2018-11-11 00:00:00 &#43;0000 UTC",
-        "dateModified" : "2018-11-11 00:00:00 &#43;0000 UTC",
-        "url" : "/categories/gorm/",
-        "wordCount" : "0",
+        "datePublished": "2018-12-08 12:53:52 &#43;0800 CST",
+        "dateModified" : "2018-12-08 12:53:52 &#43;0800 CST",
+        "url" : "/blog/%E4%BB%8E%E6%8E%92%E5%BA%8F%E6%95%B0%E7%BB%84%E4%B8%AD%E5%88%A0%E9%99%A4%E9%87%8D%E5%A4%8D%E9%A1%B9/",
+        "wordCount" : "117",
         "keywords" : [ "Blog" ]
     }
     </script>
         
-            <title>Gorm Posts - Wound</title>
+            
+                <title>从排序数组中删除重复项</title>
+            
         
 
         <meta charset="utf-8" />
@@ -65,6 +62,8 @@
 
 
         
+            <meta name="author" content="Abser">
+        
         
             
                 <meta name="description" content="Keep Coding,Keep Windy">
@@ -72,24 +71,47 @@
         
 
         <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Gorm"/>
-<meta name="twitter:description" content="Keep Coding,Keep Windy"/>
+<meta name="twitter:title" content="从排序数组中删除重复项"/>
+<meta name="twitter:description" content="问题描述 给定一个排序数组，你需要在原地删除重复出现的元素，使得每个元素只出现一次，返回移除后数组的新长度。
+不要使用额外的数组空间，你必须在原地修改输入数组并在使用 O(1) 额外空间的条件下完成。
+示例 1 给定数组 nums = [1,1,2], 函数应该返回新的长度 2, 并且原数组 nums 的前两个元素被修改为 1, 2。 你不需要考虑数组中超出新长度后面的元素。  示例 2 给定 nums = [0,0,1,1,1,2,2,3,3,4], 函数应该返回新的长度 5, 并且原数组 nums 的前五个元素被修改为 0, 1, 2, 3, 4。 你不需要考虑数组中超出新长度后面的元素。  实现 C&#43;&#43; 版本 使用了 stl 库中的方法 unique 和 erase，最后使用 size 方法返回长度
+unique 的是实现原理是，比较两个相邻的元素，如果元素相同则将它移到最后去，并且最后返回一个非冗余元素的迭代器
+然后用 erase 删除冗余的元素。
+static bool init = []() { ios::sync_with_stdio(false); cin.tie(nullptr); return true; }(); class Solution { public: int removeDuplicates(vector&lt;int&gt;&amp; nums) { nums."/>
 <meta name="twitter:site" content="@example"/>
 
-        <meta property="og:title" content="Gorm" />
-<meta property="og:description" content="Keep Coding,Keep Windy" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="/categories/gorm/" />
-<meta property="og:updated_time" content="2018-11-11T00:00:00&#43;00:00"/>
+        <meta property="og:title" content="从排序数组中删除重复项" />
+<meta property="og:description" content="问题描述 给定一个排序数组，你需要在原地删除重复出现的元素，使得每个元素只出现一次，返回移除后数组的新长度。
+不要使用额外的数组空间，你必须在原地修改输入数组并在使用 O(1) 额外空间的条件下完成。
+示例 1 给定数组 nums = [1,1,2], 函数应该返回新的长度 2, 并且原数组 nums 的前两个元素被修改为 1, 2。 你不需要考虑数组中超出新长度后面的元素。  示例 2 给定 nums = [0,0,1,1,1,2,2,3,3,4], 函数应该返回新的长度 5, 并且原数组 nums 的前五个元素被修改为 0, 1, 2, 3, 4。 你不需要考虑数组中超出新长度后面的元素。  实现 C&#43;&#43; 版本 使用了 stl 库中的方法 unique 和 erase，最后使用 size 方法返回长度
+unique 的是实现原理是，比较两个相邻的元素，如果元素相同则将它移到最后去，并且最后返回一个非冗余元素的迭代器
+然后用 erase 删除冗余的元素。
+static bool init = []() { ios::sync_with_stdio(false); cin.tie(nullptr); return true; }(); class Solution { public: int removeDuplicates(vector&lt;int&gt;&amp; nums) { nums." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/blog/%E4%BB%8E%E6%8E%92%E5%BA%8F%E6%95%B0%E7%BB%84%E4%B8%AD%E5%88%A0%E9%99%A4%E9%87%8D%E5%A4%8D%E9%A1%B9/" /><meta property="article:published_time" content="2018-12-08T12:53:52&#43;08:00"/>
+<meta property="article:modified_time" content="2018-12-08T12:53:52&#43;08:00"/>
 
         <meta property="og:image" content="//images/logo.png">
         <meta property="og:image:type" content="image/png">
         <meta property="og:image:width" content="512">
         <meta property="og:image:height" content="512">
         
-<meta itemprop="name" content="Gorm">
-<meta itemprop="description" content="Keep Coding,Keep Windy">
+<meta itemprop="name" content="从排序数组中删除重复项">
+<meta itemprop="description" content="问题描述 给定一个排序数组，你需要在原地删除重复出现的元素，使得每个元素只出现一次，返回移除后数组的新长度。
+不要使用额外的数组空间，你必须在原地修改输入数组并在使用 O(1) 额外空间的条件下完成。
+示例 1 给定数组 nums = [1,1,2], 函数应该返回新的长度 2, 并且原数组 nums 的前两个元素被修改为 1, 2。 你不需要考虑数组中超出新长度后面的元素。  示例 2 给定 nums = [0,0,1,1,1,2,2,3,3,4], 函数应该返回新的长度 5, 并且原数组 nums 的前五个元素被修改为 0, 1, 2, 3, 4。 你不需要考虑数组中超出新长度后面的元素。  实现 C&#43;&#43; 版本 使用了 stl 库中的方法 unique 和 erase，最后使用 size 方法返回长度
+unique 的是实现原理是，比较两个相邻的元素，如果元素相同则将它移到最后去，并且最后返回一个非冗余元素的迭代器
+然后用 erase 删除冗余的元素。
+static bool init = []() { ios::sync_with_stdio(false); cin.tie(nullptr); return true; }(); class Solution { public: int removeDuplicates(vector&lt;int&gt;&amp; nums) { nums.">
 
+
+<meta itemprop="datePublished" content="2018-12-08T12:53:52&#43;08:00" />
+<meta itemprop="dateModified" content="2018-12-08T12:53:52&#43;08:00" />
+<meta itemprop="wordCount" content="117">
+
+
+
+<meta itemprop="keywords" content="" />
 
         
 
@@ -129,9 +151,10 @@
       <div id="wrapper">
 
     
+    
 <header id="header">
     
-      <h1><a href="/">categories</a></h1>
+      <h1><a href="/">blog</a></h1>
     
 
     <nav class="links">
@@ -177,6 +200,10 @@
     </nav>
     <nav class="main">
         <ul>
+            
+            <li id="share-nav" class="share-menu" style="display:none;">
+                <a class="fa-share-alt" href="#share-menu">Share</a>
+            </li>
             
             <li class="search">
                 <a class="fa-search" href="#search">Search</a>
@@ -346,73 +373,306 @@
         
 </section>
 
+    <section id="share-menu">
+    <section id="social-share-nav">
+        <ul class="links">
+            <header>
+                <h3>Share this post <i class="fa fa-smile-o"></i></h3>
+            </header>
+            
+
+
+
+<li>
+  <a href="//twitter.com/share?url=%2fblog%2f%25E4%25BB%258E%25E6%258E%2592%25E5%25BA%258F%25E6%2595%25B0%25E7%25BB%2584%25E4%25B8%25AD%25E5%2588%25A0%25E9%2599%25A4%25E9%2587%258D%25E5%25A4%258D%25E9%25A1%25B9%2f&amp;text=%e4%bb%8e%e6%8e%92%e5%ba%8f%e6%95%b0%e7%bb%84%e4%b8%ad%e5%88%a0%e9%99%a4%e9%87%8d%e5%a4%8d%e9%a1%b9&amp;via=example" target="_blank" class="share-btn twitter">
+    <i class="fa fa-twitter"></i>
+    <p>Twitter</p>
+    </a>
+</li>
+
+
+
+
+<li>
+  <a href="//plus.google.com/share?url=%2fblog%2f%25E4%25BB%258E%25E6%258E%2592%25E5%25BA%258F%25E6%2595%25B0%25E7%25BB%2584%25E4%25B8%25AD%25E5%2588%25A0%25E9%2599%25A4%25E9%2587%258D%25E5%25A4%258D%25E9%25A1%25B9%2f" target="_blank" class="share-btn google-plus">
+    <i class="fa fa-google-plus"></i>
+    <p>Google+</p>
+  </a>
+</li>
+
+
+
+
+
+<li>
+  <a href="//www.facebook.com/sharer/sharer.php?u=%2fblog%2f%25E4%25BB%258E%25E6%258E%2592%25E5%25BA%258F%25E6%2595%25B0%25E7%25BB%2584%25E4%25B8%25AD%25E5%2588%25A0%25E9%2599%25A4%25E9%2587%258D%25E5%25A4%258D%25E9%25A1%25B9%2f" target="_blank" class="share-btn facebook">
+    <i class="fa fa-facebook"></i>
+    <p>Facebook</p>
+    </a>
+</li>
+
+
+
+
+<li>
+  <a href="//reddit.com/submit?url=%2fblog%2f%25E4%25BB%258E%25E6%258E%2592%25E5%25BA%258F%25E6%2595%25B0%25E7%25BB%2584%25E4%25B8%25AD%25E5%2588%25A0%25E9%2599%25A4%25E9%2587%258D%25E5%25A4%258D%25E9%25A1%25B9%2f&amp;title=%e4%bb%8e%e6%8e%92%e5%ba%8f%e6%95%b0%e7%bb%84%e4%b8%ad%e5%88%a0%e9%99%a4%e9%87%8d%e5%a4%8d%e9%a1%b9" target="_blank" class="share-btn reddit">
+    <i class="fa fa-reddit-alien"></i>
+    <p>Reddit</p>
+  </a>
+</li>
+
+
+
+
+<li>
+  <a href="//www.linkedin.com/shareArticle?url=%2fblog%2f%25E4%25BB%258E%25E6%258E%2592%25E5%25BA%258F%25E6%2595%25B0%25E7%25BB%2584%25E4%25B8%25AD%25E5%2588%25A0%25E9%2599%25A4%25E9%2587%258D%25E5%25A4%258D%25E9%25A1%25B9%2f&amp;title=%e4%bb%8e%e6%8e%92%e5%ba%8f%e6%95%b0%e7%bb%84%e4%b8%ad%e5%88%a0%e9%99%a4%e9%87%8d%e5%a4%8d%e9%a1%b9" target="_blank" class="share-btn linkedin">
+      <i class="fa fa-linkedin"></i>
+      <p>LinkedIn</p>
+    </a>
+</li>
+
+
+
+
+<li>
+  <a href="//www.stumbleupon.com/submit?url=%2fblog%2f%25E4%25BB%258E%25E6%258E%2592%25E5%25BA%258F%25E6%2595%25B0%25E7%25BB%2584%25E4%25B8%25AD%25E5%2588%25A0%25E9%2599%25A4%25E9%2587%258D%25E5%25A4%258D%25E9%25A1%25B9%2f&amp;title=%e4%bb%8e%e6%8e%92%e5%ba%8f%e6%95%b0%e7%bb%84%e4%b8%ad%e5%88%a0%e9%99%a4%e9%87%8d%e5%a4%8d%e9%a1%b9" target="_blank" class="share-btn stumbleupon">
+    <i class="fa fa-stumbleupon"></i>
+    <p>StumbleUpon</p>
+  </a>
+</li>
+
+
+
+
+<li>
+  <a href="//www.pinterest.com/pin/create/button/?url=%2fblog%2f%25E4%25BB%258E%25E6%258E%2592%25E5%25BA%258F%25E6%2595%25B0%25E7%25BB%2584%25E4%25B8%25AD%25E5%2588%25A0%25E9%2599%25A4%25E9%2587%258D%25E5%25A4%258D%25E9%25A1%25B9%2f&amp;description=%e4%bb%8e%e6%8e%92%e5%ba%8f%e6%95%b0%e7%bb%84%e4%b8%ad%e5%88%a0%e9%99%a4%e9%87%8d%e5%a4%8d%e9%a1%b9" target="_blank" class="share-btn pinterest">
+    <i class="fa fa-pinterest-p"></i>
+    <p>Pinterest</p>
+  </a>
+</li>
+
+
+
+
+<li>
+  <a href="mailto:?subject=Check out this post by Abser&amp;body=%2fblog%2f%25E4%25BB%258E%25E6%258E%2592%25E5%25BA%258F%25E6%2595%25B0%25E7%25BB%2584%25E4%25B8%25AD%25E5%2588%25A0%25E9%2599%25A4%25E9%2587%258D%25E5%25A4%258D%25E9%25A1%25B9%2f" target="_blank" class="share-btn email">
+    <i class="fa fa-envelope"></i>
+    <p>Email</p>
+  </a>
+</li>
+
+
+        </ul>
+    </section>
+</section>
+
     
     <div id="main">
-        <h1>Gorm</h1>
         
         
-            <article class="post">
+        <article class="post">
   <header>
     <div class="title">
         
-            <h2><a href="/blog/gin-grom%E5%88%9B%E5%BB%BA%E6%9C%8D%E5%8A%A1/">Create A Service By Gin-Gorm</a></h2>
+            <h1><a href="/blog/%E4%BB%8E%E6%8E%92%E5%BA%8F%E6%95%B0%E7%BB%84%E4%B8%AD%E5%88%A0%E9%99%A4%E9%87%8D%E5%A4%8D%E9%A1%B9/">从排序数组中删除重复项</a></h1>
+            
         
-        
-            <p>Learn how to create service by Gin and Gorm</p>
         
     </div>
     <div class="meta">
         
 
         <time class="published"
-            datetime='2018-11-11'>
-            November 11, 2018</time>
+            datetime='2018-12-08'>
+            December 8, 2018</time>
         <span class="author">Abser</span>
         
-            <p>9 minute read</p>
+            <p>1 minute read</p>
         
         
     </div>
 </header>
 
+
   
+    <section id="social-share">
+      <ul class="icons">
+        
+
+
+
+<li>
+  <a href="//twitter.com/share?url=%2fblog%2f%25E4%25BB%258E%25E6%258E%2592%25E5%25BA%258F%25E6%2595%25B0%25E7%25BB%2584%25E4%25B8%25AD%25E5%2588%25A0%25E9%2599%25A4%25E9%2587%258D%25E5%25A4%258D%25E9%25A1%25B9%2f&amp;text=%e4%bb%8e%e6%8e%92%e5%ba%8f%e6%95%b0%e7%bb%84%e4%b8%ad%e5%88%a0%e9%99%a4%e9%87%8d%e5%a4%8d%e9%a1%b9&amp;via=example" target="_blank" class="share-btn twitter">
+    <i class="fa fa-twitter"></i>
+    <p>Twitter</p>
+    </a>
+</li>
+
+
+
+
+<li>
+  <a href="//plus.google.com/share?url=%2fblog%2f%25E4%25BB%258E%25E6%258E%2592%25E5%25BA%258F%25E6%2595%25B0%25E7%25BB%2584%25E4%25B8%25AD%25E5%2588%25A0%25E9%2599%25A4%25E9%2587%258D%25E5%25A4%258D%25E9%25A1%25B9%2f" target="_blank" class="share-btn google-plus">
+    <i class="fa fa-google-plus"></i>
+    <p>Google+</p>
+  </a>
+</li>
+
+
+
+
+
+<li>
+  <a href="//www.facebook.com/sharer/sharer.php?u=%2fblog%2f%25E4%25BB%258E%25E6%258E%2592%25E5%25BA%258F%25E6%2595%25B0%25E7%25BB%2584%25E4%25B8%25AD%25E5%2588%25A0%25E9%2599%25A4%25E9%2587%258D%25E5%25A4%258D%25E9%25A1%25B9%2f" target="_blank" class="share-btn facebook">
+    <i class="fa fa-facebook"></i>
+    <p>Facebook</p>
+    </a>
+</li>
+
+
+
+
+<li>
+  <a href="//reddit.com/submit?url=%2fblog%2f%25E4%25BB%258E%25E6%258E%2592%25E5%25BA%258F%25E6%2595%25B0%25E7%25BB%2584%25E4%25B8%25AD%25E5%2588%25A0%25E9%2599%25A4%25E9%2587%258D%25E5%25A4%258D%25E9%25A1%25B9%2f&amp;title=%e4%bb%8e%e6%8e%92%e5%ba%8f%e6%95%b0%e7%bb%84%e4%b8%ad%e5%88%a0%e9%99%a4%e9%87%8d%e5%a4%8d%e9%a1%b9" target="_blank" class="share-btn reddit">
+    <i class="fa fa-reddit-alien"></i>
+    <p>Reddit</p>
+  </a>
+</li>
+
+
+
+
+<li>
+  <a href="//www.linkedin.com/shareArticle?url=%2fblog%2f%25E4%25BB%258E%25E6%258E%2592%25E5%25BA%258F%25E6%2595%25B0%25E7%25BB%2584%25E4%25B8%25AD%25E5%2588%25A0%25E9%2599%25A4%25E9%2587%258D%25E5%25A4%258D%25E9%25A1%25B9%2f&amp;title=%e4%bb%8e%e6%8e%92%e5%ba%8f%e6%95%b0%e7%bb%84%e4%b8%ad%e5%88%a0%e9%99%a4%e9%87%8d%e5%a4%8d%e9%a1%b9" target="_blank" class="share-btn linkedin">
+      <i class="fa fa-linkedin"></i>
+      <p>LinkedIn</p>
+    </a>
+</li>
+
+
+
+
+<li>
+  <a href="//www.stumbleupon.com/submit?url=%2fblog%2f%25E4%25BB%258E%25E6%258E%2592%25E5%25BA%258F%25E6%2595%25B0%25E7%25BB%2584%25E4%25B8%25AD%25E5%2588%25A0%25E9%2599%25A4%25E9%2587%258D%25E5%25A4%258D%25E9%25A1%25B9%2f&amp;title=%e4%bb%8e%e6%8e%92%e5%ba%8f%e6%95%b0%e7%bb%84%e4%b8%ad%e5%88%a0%e9%99%a4%e9%87%8d%e5%a4%8d%e9%a1%b9" target="_blank" class="share-btn stumbleupon">
+    <i class="fa fa-stumbleupon"></i>
+    <p>StumbleUpon</p>
+  </a>
+</li>
+
+
+
+
+<li>
+  <a href="//www.pinterest.com/pin/create/button/?url=%2fblog%2f%25E4%25BB%258E%25E6%258E%2592%25E5%25BA%258F%25E6%2595%25B0%25E7%25BB%2584%25E4%25B8%25AD%25E5%2588%25A0%25E9%2599%25A4%25E9%2587%258D%25E5%25A4%258D%25E9%25A1%25B9%2f&amp;description=%e4%bb%8e%e6%8e%92%e5%ba%8f%e6%95%b0%e7%bb%84%e4%b8%ad%e5%88%a0%e9%99%a4%e9%87%8d%e5%a4%8d%e9%a1%b9" target="_blank" class="share-btn pinterest">
+    <i class="fa fa-pinterest-p"></i>
+    <p>Pinterest</p>
+  </a>
+</li>
+
+
+
+
+<li>
+  <a href="mailto:?subject=Check out this post by Abser&amp;body=%2fblog%2f%25E4%25BB%258E%25E6%258E%2592%25E5%25BA%258F%25E6%2595%25B0%25E7%25BB%2584%25E4%25B8%25AD%25E5%2588%25A0%25E9%2599%25A4%25E9%2587%258D%25E5%25A4%258D%25E9%25A1%25B9%2f" target="_blank" class="share-btn email">
+    <i class="fa fa-envelope"></i>
+    <p>Email</p>
+  </a>
+</li>
+
+
+      </ul>
+    </section>
+  
+
+  
+
+  <div id="content">
     
 
-    
-        
-        
+<h2 id="问题描述">问题描述</h2>
 
+<p>给定一个排序数组，你需要在<a href="http://baike.baidu.com/item/%E5%8E%9F%E5%9C%B0%E7%AE%97%E6%B3%95">原地</a>删除重复出现的元素，使得每个元素只出现一次，返回移除后数组的新长度。</p>
 
+<p>不要使用额外的数组空间，你必须在<a href="https://baike.baidu.com/item/%E5%8E%9F%E5%9C%B0%E7%AE%97%E6%B3%95">原地</a><strong>修改输入数组</strong>并在使用 O(1) 额外空间的条件下完成。</p>
 
+<h3 id="示例-1"><strong>示例 1</strong></h3>
 
+<pre><code class="language-plain">给定数组 nums = [1,1,2], 
 
+函数应该返回新的长度 2, 并且原数组 nums 的前两个元素被修改为 1, 2。 
 
+你不需要考虑数组中超出新长度后面的元素。
+</code></pre>
 
-  
-  
-    
-  
+<h3 id="示例-2"><strong>示例 2</strong></h3>
 
+<pre><code class="language-plain">给定 nums = [0,0,1,1,1,2,2,3,3,4],
 
-        
-        
-        
+函数应该返回新的长度 5, 并且原数组 nums 的前五个元素被修改为 0, 1, 2, 3, 4。
 
-        <a href="/blog/gin-grom%E5%88%9B%E5%BB%BA%E6%9C%8D%E5%8A%A1/" class="image featured">
-            <img src="/img/2018/11/pic01.jpg" alt="">
-        </a>
-    
+你不需要考虑数组中超出新长度后面的元素。
+</code></pre>
 
+<h2 id="实现">实现</h2>
 
-  
-  <p><span data-type="color" style="color:rgb(47, 47, 47)"><span data-type="background" style="background-color:rgb(255, 255, 255)">原文链接：</span></span><a href="https://link.jianshu.com/?t=https%3A%2F%2Fmedium.com%2F%40cgrant%2Fdeveloping-a-simple-crud-api-with-go-gin-and-gorm-df87d98e6ed1">https://medium.com/@cgrant/developing-a-simple-crud-api-with-go-gin-and-gorm-df87d98e6ed1</a>
-翻译：<span data-type="color" style="color:rgb(47, 47, 47)"><span data-type="background" style="background-color:rgb(255, 255, 255)">devabel</span></span>
-整理：abser</p>
+<h3 id="c-版本">C++ 版本</h3>
+
+<p>使用了 stl 库中的方法 unique 和 erase，最后使用 size 方法返回长度</p>
+
+<p>unique 的是实现原理是，比较两个相邻的元素，如果元素相同则将它移到最后去，并且最后返回一个非冗余元素的迭代器</p>
+
+<p>然后用 erase 删除冗余的元素。</p>
+
+<pre><code class="language-cpp">static bool init = []()
+{
+    ios::sync_with_stdio(false);
+    cin.tie(nullptr);
+    return true;
+}();
+
+class Solution {
+public:
+    int removeDuplicates(vector&lt;int&gt;&amp; nums) {
+        nums.erase(unique(nums.begin(),nums.end()),nums.end());
+        return nums.size();
+    }
+};
+</code></pre>
+
+<h3 id="go-版本"><strong>Go 版本</strong></h3>
+
+<p>因为是已经排序的数组，顺序遍历找与前一个不同的元素，然后把它放在前一组不同元素中第一个的后面，最后返回的是前<code>index + 1</code>个不同的元素。</p>
+
+<pre><code class="language-go">func removeDuplicates(nums []int) int {
+	index := 0
+	for i := 0; i &lt; len(nums); i++ {
+		if nums[i] != nums[index] {
+			index++
+			nums[index] = nums[i]
+		}
+	}
+	return index + 1
+}
+</code></pre>
+
+<p>优化：如果把index和i的初始值都设置为1，可以少一次比较，因为最开始的判断肯定是nums[0]==nums[0]。</p>
+
+<h3 id="go-测试"><strong>Go 测试</strong></h3>
+
+<p><img src="https://cdn.nlark.com/yuque/0/2018/png/176280/1537952350813-1c53d7d3-bb9a-472b-b072-ce10cbc6eb9e.png" alt="image.png | left | 747x208" /></p>
+
+<p><img src="https://cdn.nlark.com/yuque/0/2018/png/176280/1537952247266-e4059474-2285-4015-8ab4-493587ad04e5.png" alt="image.png | center | 747x213" /></p>
+
+<p><img src="https://cdn.nlark.com/yuque/0/2018/png/176280/1537952254810-508e81ff-c8c3-4164-8c7c-984802a4c8c5.png" alt="image.png | left | 747x173" /></p>
+
+<hr />
+
+<p><img src="https://cdn.nlark.com/yuque/0/2018/png/176280/1537952239184-e9d0c1ff-ec17-4a1b-9a51-cddfb8968b42.png" alt="image.png | left | 747x213" /></p>
+
+  </div>
+
   <footer>
-    <ul class="actions">
-      <li><a href="/blog/gin-grom%E5%88%9B%E5%BB%BA%E6%9C%8D%E5%8A%A1/" class="button big">Continue Reading</a></li>
-    </ul>
-  <ul class="stats">
+    <ul class="stats">
   <li class="categories">
     <ul>
         
@@ -421,7 +681,7 @@
                 <i class="fa fa-folder"></i>
                 
                 
-                <li><a class="article-category-link" href="/categories/gorm">Gorm</a></li>
+                <li><a class="article-category-link" href="/categories/leetcode-primary">leetcode-primary</a></li>
                 
             
         
@@ -435,105 +695,45 @@
 </ul>
 
   </footer>
+
 </article>
 
-        
-            <article class="post">
-  <header>
-    <div class="title">
-        
-            <h2><a href="/blog/gorm-%E5%85%A5%E9%97%A8/">Learn Gorm</a></h2>
-        
-        
-            <p>Learn Gorm simply</p>
-        
-    </div>
-    <div class="meta">
-        
-
-        <time class="published"
-            datetime='2018-11-11'>
-            November 11, 2018</time>
-        <span class="author">Abser</span>
-        
-            <p>2 minute read</p>
-        
-        
-    </div>
-</header>
-
-  
+    <article class="post">
+        <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
     
-
     
-        
-        
-
-
-
-
-
-
-
-  
-  
     
-  
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "www-abser-top.disqus.com" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+    </article>
 
 
-        
-        
-        
-
-        <a href="/blog/gorm-%E5%85%A5%E9%97%A8/" class="image featured">
-            <img src="/img/2018/11/pic02.jpg" alt="">
-        </a>
-    
-
-
-  
-  <p>ORM（Object Relation Mapping），对象关系映射，实际上就是对数据库的操作进行封装，对上层开发人员屏蔽数据操作的细节，开发人员看到的就是一个个对象，大大简化了开发工作，提高了生产效率</p>
-  <footer>
-    <ul class="actions">
-      <li><a href="/blog/gorm-%E5%85%A5%E9%97%A8/" class="button big">Continue Reading</a></li>
-    </ul>
-  <ul class="stats">
-  <li class="categories">
-    <ul>
-        
-            
-            
-                <i class="fa fa-folder"></i>
-                
-                
-                <li><a class="article-category-link" href="/categories/gorm">Gorm</a></li>
-                
-            
-        
-    </ul>
-  </li>
-  <li class="tags">
-    <ul>
-        
-    </ul>
-  </li>
-</ul>
-
-  </footer>
-</article>
-
-        
-
-        
 <ul class="actions pagination">
     
-        <li><a href="#" class="disabled button big previous">Previous Page</a></li>
+        <li><a href="/blog/%E4%B9%B0%E5%8D%96%E8%82%A1%E7%A5%A8%E7%9A%84%E6%9C%80%E4%BD%B3%E6%97%B6%E6%9C%BA-ii/"
+                class="button big previous">买卖股票的最佳时机-II</a></li>
     
 
     
-        <li><a href="#" class="disabled button big next">Next Page</a></li>
+        <li><a href="/blog/%E6%9C%80%E9%95%BF%E5%85%AC%E5%85%B1%E5%89%8D%E7%BC%80/"
+                class="button big next">最长公共前缀</a></li>
     
 </ul>
+
 
     </div>
     
@@ -557,7 +757,7 @@
       <ul class="icons">
         
           
-    <li><a href="/categories/gorm/index.xml" type="application/rss+xml" target="_blank" title="RSS" class="fa fa-rss"></a></li>
+    <li><a href="/index.xml" type="application/rss+xml" target="_blank" title="RSS" class="fa fa-rss"></a></li>
 
 
         
@@ -890,7 +1090,7 @@
       <ul class="icons">
         
           
-    <li><a href="/categories/gorm/index.xml" type="application/rss+xml" target="_blank" title="RSS" class="fa fa-rss"></a></li>
+    <li><a href="/index.xml" type="application/rss+xml" target="_blank" title="RSS" class="fa fa-rss"></a></li>
 
 
         
