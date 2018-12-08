@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/blog/pod%E5%A4%84%E4%BA%8Econtainercreating%E7%8A%B6%E6%80%81/</loc>
+    <lastmod>2018-12-08T13:45:31+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/blog/%E6%9C%80%E9%95%BF%E5%85%AC%E5%85%B1%E5%89%8D%E7%BC%80/</loc>
     <lastmod>2018-12-08T12:55:29+08:00</lastmod>
   </url>
@@ -161,7 +166,7 @@
   
   <url>
     <loc>/blog/</loc>
-    <lastmod>2018-12-08T12:55:29+08:00</lastmod>
+    <lastmod>2018-12-08T13:45:31+08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -212,7 +217,13 @@
   
   <url>
     <loc>/</loc>
-    <lastmod>2018-12-08T12:55:29+08:00</lastmod>
+    <lastmod>2018-12-08T13:45:31+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/k8s/</loc>
+    <lastmod>2018-12-08T13:45:31+08:00</lastmod>
     <priority>0</priority>
   </url>
   
