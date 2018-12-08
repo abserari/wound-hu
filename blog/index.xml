@@ -6,10 +6,22 @@
     <description>Recent content in Blog on Wound</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 07 Dec 2018 12:27:27 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 08 Dec 2018 12:40:07 +0800</lastBuildDate>
     
 	<atom:link href="/blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>两数之和</title>
+      <link>/blog/%E4%B8%A4%E6%95%B0%E4%B9%8B%E5%92%8C/</link>
+      <pubDate>Sat, 08 Dec 2018 12:40:07 +0800</pubDate>
+      
+      <guid>/blog/%E4%B8%A4%E6%95%B0%E4%B9%8B%E5%92%8C/</guid>
+      <description> 问题描述 给定一个整数数列，找出其中和为特定值的那两个数。
+你可以假设每个输入都只会有一种答案，同样的元素不能被重用。
+示例 1 给定 nums = [2, 7, 11, 15], target = 9 因为 nums[0] + nums[1] = 2 + 7 = 9 所以返回 [0, 1]  思路 1.遍历每个元素 x，并查找是否存在一个值与 target−x相等的目标元素。 2.在进行迭代并将元素插入到表中的同时，检查表中是否已经存在当前元素所对应的目标元素。如果它存在立即将其返回
+实现 暴力法 哈希法 func twoSum(nums []int, target int) []int { m := make(map[int]int) for i := 0; i &amp;lt; len(nums); i++ { another := target - nums[i] if _, ok := m[another]; ok { return []int{m[another], i} } m[nums[i]] = i } return nil }  </description>
+    </item>
     
     <item>
       <title>Ssh连接</title>

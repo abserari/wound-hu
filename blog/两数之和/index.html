@@ -1,13 +1,3 @@
-
-
-
-    
-        
-    
-
-
-
-
 <!DOCTYPE HTML>
 
 <html>
@@ -20,10 +10,13 @@
              "@type": "WebPage",
              "@id": "/"
         },
-        "articleSection" : "categories",
-        "name" : "Algorithm",
-        "headline" : "Algorithm",
-        "description" : "",
+        "articleSection" : "blog",
+        "name" : "两数之和",
+        "headline" : "两数之和",
+        "description" : " 问题描述 给定一个整数数列，找出其中和为特定值的那两个数。
+你可以假设每个输入都只会有一种答案，同样的元素不能被重用。
+示例 1 给定 nums = [2, 7, 11, 15], target = 9 因为 nums[0] + nums[1] = 2 + 7 = 9 所以返回 [0, 1]  思路 1.遍历每个元素 x，并查找是否存在一个值与 target−x相等的目标元素。 2.在进行迭代并将元素插入到表中的同时，检查表中是否已经存在当前元素所对应的目标元素。如果它存在立即将其返回
+实现 暴力法 哈希法 func twoSum(nums []int, target int) []int { m := make(map[int]int) for i := 0; i &lt; len(nums); i++ { another := target - nums[i] if _, ok := m[another]; ok { return []int{m[another], i} } m[nums[i]] = i } return nil }  ",
         "inLanguage" : "en",
         "author" : "",
         "creator" : "",
@@ -31,15 +24,17 @@
         "accountablePerson" : "",
         "copyrightHolder" : "",
         "copyrightYear" : "2018",
-        "datePublished": "2018-11-25 00:00:00 &#43;0000 UTC",
-        "dateModified" : "2018-11-25 00:00:00 &#43;0000 UTC",
-        "url" : "/categories/algorithm/",
-        "wordCount" : "0",
+        "datePublished": "2018-12-08 12:40:07 &#43;0800 CST",
+        "dateModified" : "2018-12-08 12:40:07 &#43;0800 CST",
+        "url" : "/blog/%E4%B8%A4%E6%95%B0%E4%B9%8B%E5%92%8C/",
+        "wordCount" : "78",
         "keywords" : [ "Blog" ]
     }
     </script>
         
-            <title>Algorithm Posts - Wound</title>
+            
+                <title>两数之和</title>
+            
         
 
         <meta charset="utf-8" />
@@ -65,6 +60,8 @@
 
 
         
+            <meta name="author" content="Abser">
+        
         
             
                 <meta name="description" content="Keep Coding,Keep Windy">
@@ -72,24 +69,41 @@
         
 
         <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Algorithm"/>
-<meta name="twitter:description" content="Keep Coding,Keep Windy"/>
+<meta name="twitter:title" content="两数之和"/>
+<meta name="twitter:description" content=" 问题描述 给定一个整数数列，找出其中和为特定值的那两个数。
+你可以假设每个输入都只会有一种答案，同样的元素不能被重用。
+示例 1 给定 nums = [2, 7, 11, 15], target = 9 因为 nums[0] &#43; nums[1] = 2 &#43; 7 = 9 所以返回 [0, 1]  思路 1.遍历每个元素 x，并查找是否存在一个值与 target−x相等的目标元素。 2.在进行迭代并将元素插入到表中的同时，检查表中是否已经存在当前元素所对应的目标元素。如果它存在立即将其返回
+实现 暴力法 哈希法 func twoSum(nums []int, target int) []int { m := make(map[int]int) for i := 0; i &lt; len(nums); i&#43;&#43; { another := target - nums[i] if _, ok := m[another]; ok { return []int{m[another], i} } m[nums[i]] = i } return nil }  "/>
 <meta name="twitter:site" content="@example"/>
 
-        <meta property="og:title" content="Algorithm" />
-<meta property="og:description" content="Keep Coding,Keep Windy" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="/categories/algorithm/" />
-<meta property="og:updated_time" content="2018-11-25T00:00:00&#43;00:00"/>
+        <meta property="og:title" content="两数之和" />
+<meta property="og:description" content=" 问题描述 给定一个整数数列，找出其中和为特定值的那两个数。
+你可以假设每个输入都只会有一种答案，同样的元素不能被重用。
+示例 1 给定 nums = [2, 7, 11, 15], target = 9 因为 nums[0] &#43; nums[1] = 2 &#43; 7 = 9 所以返回 [0, 1]  思路 1.遍历每个元素 x，并查找是否存在一个值与 target−x相等的目标元素。 2.在进行迭代并将元素插入到表中的同时，检查表中是否已经存在当前元素所对应的目标元素。如果它存在立即将其返回
+实现 暴力法 哈希法 func twoSum(nums []int, target int) []int { m := make(map[int]int) for i := 0; i &lt; len(nums); i&#43;&#43; { another := target - nums[i] if _, ok := m[another]; ok { return []int{m[another], i} } m[nums[i]] = i } return nil }  " />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/blog/%E4%B8%A4%E6%95%B0%E4%B9%8B%E5%92%8C/" /><meta property="article:published_time" content="2018-12-08T12:40:07&#43;08:00"/>
+<meta property="article:modified_time" content="2018-12-08T12:40:07&#43;08:00"/>
 
         <meta property="og:image" content="//images/logo.png">
         <meta property="og:image:type" content="image/png">
         <meta property="og:image:width" content="512">
         <meta property="og:image:height" content="512">
         
-<meta itemprop="name" content="Algorithm">
-<meta itemprop="description" content="Keep Coding,Keep Windy">
+<meta itemprop="name" content="两数之和">
+<meta itemprop="description" content=" 问题描述 给定一个整数数列，找出其中和为特定值的那两个数。
+你可以假设每个输入都只会有一种答案，同样的元素不能被重用。
+示例 1 给定 nums = [2, 7, 11, 15], target = 9 因为 nums[0] &#43; nums[1] = 2 &#43; 7 = 9 所以返回 [0, 1]  思路 1.遍历每个元素 x，并查找是否存在一个值与 target−x相等的目标元素。 2.在进行迭代并将元素插入到表中的同时，检查表中是否已经存在当前元素所对应的目标元素。如果它存在立即将其返回
+实现 暴力法 哈希法 func twoSum(nums []int, target int) []int { m := make(map[int]int) for i := 0; i &lt; len(nums); i&#43;&#43; { another := target - nums[i] if _, ok := m[another]; ok { return []int{m[another], i} } m[nums[i]] = i } return nil }  ">
 
+
+<meta itemprop="datePublished" content="2018-12-08T12:40:07&#43;08:00" />
+<meta itemprop="dateModified" content="2018-12-08T12:40:07&#43;08:00" />
+<meta itemprop="wordCount" content="78">
+
+
+
+<meta itemprop="keywords" content="" />
 
         
 
@@ -129,9 +143,10 @@
       <div id="wrapper">
 
     
+    
 <header id="header">
     
-      <h1><a href="/">categories</a></h1>
+      <h1><a href="/">blog</a></h1>
     
 
     <nav class="links">
@@ -177,6 +192,10 @@
     </nav>
     <nav class="main">
         <ul>
+            
+            <li id="share-nav" class="share-menu" style="display:none;">
+                <a class="fa-share-alt" href="#share-menu">Share</a>
+            </li>
             
             <li class="search">
                 <a class="fa-search" href="#search">Search</a>
@@ -341,6 +360,9 @@
 
 
   
+  
+    
+  
 
 
         
@@ -348,7 +370,7 @@
         
 
         <a href="/blog/hugo-github-blog/" class="image featured">
-            <img src="/img//pic04.jpg" alt="">
+            <img src="/img/2018/11/pic04.jpg" alt="">
         </a>
     
 
@@ -370,28 +392,119 @@
         
 </section>
 
+    <section id="share-menu">
+    <section id="social-share-nav">
+        <ul class="links">
+            <header>
+                <h3>Share this post <i class="fa fa-smile-o"></i></h3>
+            </header>
+            
+
+
+
+<li>
+  <a href="//twitter.com/share?url=%2fblog%2f%25E4%25B8%25A4%25E6%2595%25B0%25E4%25B9%258B%25E5%2592%258C%2f&amp;text=%e4%b8%a4%e6%95%b0%e4%b9%8b%e5%92%8c&amp;via=example" target="_blank" class="share-btn twitter">
+    <i class="fa fa-twitter"></i>
+    <p>Twitter</p>
+    </a>
+</li>
+
+
+
+
+<li>
+  <a href="//plus.google.com/share?url=%2fblog%2f%25E4%25B8%25A4%25E6%2595%25B0%25E4%25B9%258B%25E5%2592%258C%2f" target="_blank" class="share-btn google-plus">
+    <i class="fa fa-google-plus"></i>
+    <p>Google+</p>
+  </a>
+</li>
+
+
+
+
+
+<li>
+  <a href="//www.facebook.com/sharer/sharer.php?u=%2fblog%2f%25E4%25B8%25A4%25E6%2595%25B0%25E4%25B9%258B%25E5%2592%258C%2f" target="_blank" class="share-btn facebook">
+    <i class="fa fa-facebook"></i>
+    <p>Facebook</p>
+    </a>
+</li>
+
+
+
+
+<li>
+  <a href="//reddit.com/submit?url=%2fblog%2f%25E4%25B8%25A4%25E6%2595%25B0%25E4%25B9%258B%25E5%2592%258C%2f&amp;title=%e4%b8%a4%e6%95%b0%e4%b9%8b%e5%92%8c" target="_blank" class="share-btn reddit">
+    <i class="fa fa-reddit-alien"></i>
+    <p>Reddit</p>
+  </a>
+</li>
+
+
+
+
+<li>
+  <a href="//www.linkedin.com/shareArticle?url=%2fblog%2f%25E4%25B8%25A4%25E6%2595%25B0%25E4%25B9%258B%25E5%2592%258C%2f&amp;title=%e4%b8%a4%e6%95%b0%e4%b9%8b%e5%92%8c" target="_blank" class="share-btn linkedin">
+      <i class="fa fa-linkedin"></i>
+      <p>LinkedIn</p>
+    </a>
+</li>
+
+
+
+
+<li>
+  <a href="//www.stumbleupon.com/submit?url=%2fblog%2f%25E4%25B8%25A4%25E6%2595%25B0%25E4%25B9%258B%25E5%2592%258C%2f&amp;title=%e4%b8%a4%e6%95%b0%e4%b9%8b%e5%92%8c" target="_blank" class="share-btn stumbleupon">
+    <i class="fa fa-stumbleupon"></i>
+    <p>StumbleUpon</p>
+  </a>
+</li>
+
+
+
+
+<li>
+  <a href="//www.pinterest.com/pin/create/button/?url=%2fblog%2f%25E4%25B8%25A4%25E6%2595%25B0%25E4%25B9%258B%25E5%2592%258C%2f&amp;description=%e4%b8%a4%e6%95%b0%e4%b9%8b%e5%92%8c" target="_blank" class="share-btn pinterest">
+    <i class="fa fa-pinterest-p"></i>
+    <p>Pinterest</p>
+  </a>
+</li>
+
+
+
+
+<li>
+  <a href="mailto:?subject=Check out this post by Abser&amp;body=%2fblog%2f%25E4%25B8%25A4%25E6%2595%25B0%25E4%25B9%258B%25E5%2592%258C%2f" target="_blank" class="share-btn email">
+    <i class="fa fa-envelope"></i>
+    <p>Email</p>
+  </a>
+</li>
+
+
+        </ul>
+    </section>
+</section>
+
     
     <div id="main">
-        <h1>Algorithm</h1>
         
         
-            <article class="post">
+        <article class="post">
   <header>
     <div class="title">
         
-            <h2><a href="/blog/hyperloglog%E7%AE%97%E6%B3%95/">HyperLogLog</a></h2>
+            <h1><a href="/blog/%E4%B8%A4%E6%95%B0%E4%B9%8B%E5%92%8C/">两数之和</a></h1>
+            
         
-        
-            <p>HyperLogLog</p>
         
     </div>
     <div class="meta">
         
 
         <time class="published"
-            datetime='2018-11-25'>
-            November 25, 2018</time>
-        <span class="author">Abser Ari</span>
+            datetime='2018-12-08'>
+            December 8, 2018</time>
+        <span class="author">Abser</span>
         
             <p>1 minute read</p>
         
@@ -399,42 +512,144 @@
     </div>
 </header>
 
+
   
+    <section id="social-share">
+      <ul class="icons">
+        
+
+
+
+<li>
+  <a href="//twitter.com/share?url=%2fblog%2f%25E4%25B8%25A4%25E6%2595%25B0%25E4%25B9%258B%25E5%2592%258C%2f&amp;text=%e4%b8%a4%e6%95%b0%e4%b9%8b%e5%92%8c&amp;via=example" target="_blank" class="share-btn twitter">
+    <i class="fa fa-twitter"></i>
+    <p>Twitter</p>
+    </a>
+</li>
+
+
+
+
+<li>
+  <a href="//plus.google.com/share?url=%2fblog%2f%25E4%25B8%25A4%25E6%2595%25B0%25E4%25B9%258B%25E5%2592%258C%2f" target="_blank" class="share-btn google-plus">
+    <i class="fa fa-google-plus"></i>
+    <p>Google+</p>
+  </a>
+</li>
+
+
+
+
+
+<li>
+  <a href="//www.facebook.com/sharer/sharer.php?u=%2fblog%2f%25E4%25B8%25A4%25E6%2595%25B0%25E4%25B9%258B%25E5%2592%258C%2f" target="_blank" class="share-btn facebook">
+    <i class="fa fa-facebook"></i>
+    <p>Facebook</p>
+    </a>
+</li>
+
+
+
+
+<li>
+  <a href="//reddit.com/submit?url=%2fblog%2f%25E4%25B8%25A4%25E6%2595%25B0%25E4%25B9%258B%25E5%2592%258C%2f&amp;title=%e4%b8%a4%e6%95%b0%e4%b9%8b%e5%92%8c" target="_blank" class="share-btn reddit">
+    <i class="fa fa-reddit-alien"></i>
+    <p>Reddit</p>
+  </a>
+</li>
+
+
+
+
+<li>
+  <a href="//www.linkedin.com/shareArticle?url=%2fblog%2f%25E4%25B8%25A4%25E6%2595%25B0%25E4%25B9%258B%25E5%2592%258C%2f&amp;title=%e4%b8%a4%e6%95%b0%e4%b9%8b%e5%92%8c" target="_blank" class="share-btn linkedin">
+      <i class="fa fa-linkedin"></i>
+      <p>LinkedIn</p>
+    </a>
+</li>
+
+
+
+
+<li>
+  <a href="//www.stumbleupon.com/submit?url=%2fblog%2f%25E4%25B8%25A4%25E6%2595%25B0%25E4%25B9%258B%25E5%2592%258C%2f&amp;title=%e4%b8%a4%e6%95%b0%e4%b9%8b%e5%92%8c" target="_blank" class="share-btn stumbleupon">
+    <i class="fa fa-stumbleupon"></i>
+    <p>StumbleUpon</p>
+  </a>
+</li>
+
+
+
+
+<li>
+  <a href="//www.pinterest.com/pin/create/button/?url=%2fblog%2f%25E4%25B8%25A4%25E6%2595%25B0%25E4%25B9%258B%25E5%2592%258C%2f&amp;description=%e4%b8%a4%e6%95%b0%e4%b9%8b%e5%92%8c" target="_blank" class="share-btn pinterest">
+    <i class="fa fa-pinterest-p"></i>
+    <p>Pinterest</p>
+  </a>
+</li>
+
+
+
+
+<li>
+  <a href="mailto:?subject=Check out this post by Abser&amp;body=%2fblog%2f%25E4%25B8%25A4%25E6%2595%25B0%25E4%25B9%258B%25E5%2592%258C%2f" target="_blank" class="share-btn email">
+    <i class="fa fa-envelope"></i>
+    <p>Email</p>
+  </a>
+</li>
+
+
+      </ul>
+    </section>
+  
+
+  
+
+  <div id="content">
     
 
-    
-        
-        
+<h2 id="问题描述">问题描述</h2>
 
+<p>给定一个整数数列，找出其中和为特定值的那两个数。</p>
 
+<p>你可以假设每个输入都只会有一种答案，同样的元素不能被重用。</p>
 
+<h3 id="示例-1"><strong>示例 1</strong></h3>
 
+<pre><code class="language-plain">给定 nums = [2, 7, 11, 15], target = 9
 
+因为 nums[0] + nums[1] = 2 + 7 = 9
+所以返回 [0, 1]
+</code></pre>
 
+<h2 id="思路">思路</h2>
 
-  
-  
-    
-  
+<p>1.<span data-type="color" style="color:rgb(90, 90, 90)"><span data-type="background" style="background-color:rgb(255, 255, 255)">遍历每个元素 </span></span>x<span data-type="color" style="color:rgb(90, 90, 90)"><span data-type="background" style="background-color:rgb(255, 255, 255)">，并查找是否存在一个值与 </span></span>target−x<span data-type="color" style="color:rgb(90, 90, 90)"><span data-type="background" style="background-color:rgb(255, 255, 255)"> </span></span>相等的目标元素。
+2.<span data-type="color" style="color:rgb(90, 90, 90)"><span data-type="background" style="background-color:rgb(255, 255, 255)">在进行迭代并将元素插入到表中的同时，检查表中是否已经存在当前元素所对应的目标元素。如果它存在立即将其返回</span></span></p>
 
+<h2 id="实现">实现</h2>
 
-        
-        
-        
+<h3 id="暴力法">暴力法</h3>
 
-        <a href="/blog/hyperloglog%E7%AE%97%E6%B3%95/" class="image featured">
-            <img src="/img/2018/11/pic03.jpg" alt="">
-        </a>
-    
+<h3 id="哈希法">哈希法</h3>
 
+<pre><code class="language-go">func twoSum(nums []int, target int) []int {
+	m := make(map[int]int)
+	for i := 0; i &lt; len(nums); i++ {
+		another := target - nums[i]
+		if _, ok := m[another]; ok {
+			return []int{m[another], i}
+		}
+		m[nums[i]] = i
+	}
+	return nil
+}
+</code></pre>
 
-  
-  <p>更好的阅读参见我的<a href="https://www.yuque.com/abser/share/nfx0a4">语雀</a></p>
+  </div>
+
   <footer>
-    <ul class="actions">
-      <li><a href="/blog/hyperloglog%E7%AE%97%E6%B3%95/" class="button big">Continue Reading</a></li>
-    </ul>
-  <ul class="stats">
+    <ul class="stats">
   <li class="categories">
     <ul>
         
@@ -443,7 +658,7 @@
                 <i class="fa fa-folder"></i>
                 
                 
-                <li><a class="article-category-link" href="/categories/algorithm">Algorithm</a></li>
+                <li><a class="article-category-link" href="/categories/leetcode">leetcode</a></li>
                 
             
         
@@ -457,20 +672,42 @@
 </ul>
 
   </footer>
+
 </article>
 
-        
+    <article class="post">
+        <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "www-abser-top.disqus.com" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+    </article>
 
-        
+
 <ul class="actions pagination">
     
-        <li><a href="#" class="disabled button big previous">Previous Page</a></li>
+        <li><a href="/blog/ssh%E8%BF%9E%E6%8E%A5/"
+                class="button big previous">Ssh连接</a></li>
     
 
     
-        <li><a href="#" class="disabled button big next">Next Page</a></li>
-    
 </ul>
+
 
     </div>
     
@@ -494,7 +731,7 @@
       <ul class="icons">
         
           
-    <li><a href="/categories/algorithm/index.xml" type="application/rss+xml" target="_blank" title="RSS" class="fa fa-rss"></a></li>
+    <li><a href="/index.xml" type="application/rss+xml" target="_blank" title="RSS" class="fa fa-rss"></a></li>
 
 
         
@@ -854,7 +1091,7 @@
       <ul class="icons">
         
           
-    <li><a href="/categories/algorithm/index.xml" type="application/rss+xml" target="_blank" title="RSS" class="fa fa-rss"></a></li>
+    <li><a href="/index.xml" type="application/rss+xml" target="_blank" title="RSS" class="fa fa-rss"></a></li>
 
 
         
