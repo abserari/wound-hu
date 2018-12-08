@@ -1,86 +1,59 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on Wound</title>
+    <title>Wound</title>
     <link>/categories/</link>
-    <description>Recent content in Categories on Wound</description>
+    <description>Recent content on Wound</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 22 Jun 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 08 Dec 2018 12:43:36 +0800</lastBuildDate>
     
 	<atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title></title>
-      <link>/categories/</link>
+      <title>求众数</title>
+      <link>/blog/%E6%B1%82%E4%BC%97%E6%95%B0/</link>
+      <pubDate>Sat, 08 Dec 2018 12:43:36 +0800</pubDate>
+      
+      <guid>/blog/%E6%B1%82%E4%BC%97%E6%95%B0/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fancy App 1</title>
+      <link>/itemized/item1/</link>
       <pubDate>Thu, 22 Jun 2017 00:00:00 +0000</pubDate>
       
-      <guid>/categories/</guid>
-      <description></description>
+      <guid>/itemized/item1/</guid>
+      <description> App 1 </description>
     </item>
     
     <item>
-      <title>Algorithm</title>
-      <link>/categories/algorithm/</link>
-      <pubDate>Sun, 25 Nov 2018 00:00:00 +0000</pubDate>
+      <title>Fancy App 2</title>
+      <link>/itemized/item2/</link>
+      <pubDate>Thu, 22 Jun 2017 00:00:00 +0000</pubDate>
       
-      <guid>/categories/algorithm/</guid>
-      <description></description>
+      <guid>/itemized/item2/</guid>
+      <description> App 2 </description>
     </item>
     
     <item>
-      <title>Go</title>
-      <link>/categories/go/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      <title>Fancy App 3</title>
+      <link>/itemized/item3/</link>
+      <pubDate>Thu, 22 Jun 2017 00:00:00 +0000</pubDate>
       
-      <guid>/categories/go/</guid>
-      <description></description>
+      <guid>/itemized/item3/</guid>
+      <description> App 3 </description>
     </item>
     
     <item>
-      <title>Gorm</title>
-      <link>/categories/gorm/</link>
-      <pubDate>Sun, 11 Nov 2018 00:00:00 +0000</pubDate>
+      <title>Fancy App 4</title>
+      <link>/itemized/item4/</link>
+      <pubDate>Thu, 22 Jun 2017 00:00:00 +0000</pubDate>
       
-      <guid>/categories/gorm/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Hugo</title>
-      <link>/categories/hugo/</link>
-      <pubDate>Sun, 25 Nov 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/categories/hugo/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Jekyll</title>
-      <link>/categories/jekyll/</link>
-      <pubDate>Mon, 10 Mar 2014 00:00:00 +0000</pubDate>
-      
-      <guid>/categories/jekyll/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>leetcode</title>
-      <link>/categories/leetcode/</link>
-      <pubDate>Sat, 08 Dec 2018 12:40:07 +0800</pubDate>
-      
-      <guid>/categories/leetcode/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>ssh</title>
-      <link>/categories/ssh/</link>
-      <pubDate>Fri, 07 Dec 2018 12:27:27 +0800</pubDate>
-      
-      <guid>/categories/ssh/</guid>
-      <description></description>
+      <guid>/itemized/item4/</guid>
+      <description> App 4 </description>
     </item>
     
   </channel>
