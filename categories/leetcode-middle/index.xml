@@ -6,10 +6,21 @@
     <description>Recent content in leetcode-middle on Wound</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 09 Dec 2018 17:06:03 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 12 Dec 2018 13:09:34 +0800</lastBuildDate>
     
 	<atom:link href="/categories/leetcode-middle/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>三数之和</title>
+      <link>/blog/%E4%B8%89%E6%95%B0%E4%B9%8B%E5%92%8C/</link>
+      <pubDate>Wed, 12 Dec 2018 13:09:34 +0800</pubDate>
+      
+      <guid>/blog/%E4%B8%89%E6%95%B0%E4%B9%8B%E5%92%8C/</guid>
+      <description> 问题描述 给定一个包含 *n* 个整数的数组 nums，判断 nums 中是否存在三个元素 *a，b，c ，*使得 *a + b + c = *0 ？找出所有满足条件且不重复的三元组。
+注意：答案中不可以包含重复的三元组。
+示例 例如, 给定数组 nums = [-1, 0, 1, 2, -1, -4]， 满足要求的三元组集合为： [ [-1, 0, 1], [-1, -1, 2] ]  思路及实现 func threeSum(nums []int) [][]int { // 排序后，可以按规律查找 sort.Ints(nums) res := [][]int{} for i := range nums { // 避免添加重复的结果 // i&amp;gt;0 是为了防止nums[i-1]溢出 if i &amp;gt; 0 &amp;amp;&amp;amp; nums[i] == nums[i-1] { continue } l, r := i+1, len(nums)-1 for l &amp;lt; r { s := nums[i] + nums[l] + nums[r] switch { case s &amp;lt; 0: // 较小的 l 需要变大 l++ case s &amp;gt; 0: // 较大的 r 需要变小 r-- default: res = append(res, []int{nums[i], nums[l], nums[r]}) // 为避免重复添加，l 和 r 都需要移动到不同的元素上。 l, r = next(nums, l, r) } } } return res } func next(nums []int, l, r int) (int, int) { for l &amp;lt; r { switch { case nums[l] == nums[l+1]: l++ case nums[r] == nums[r-1]: r-- default: l++ r-- return l, r } } return l, r } } else { j++ for j &amp;lt; k &amp;amp;&amp;amp; nums[j-1] == nums[j] { j++ } } } } return result }  </description>
+    </item>
     
     <item>
       <title>字符串的排列</title>
