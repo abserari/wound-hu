@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/blog/example-acl/</loc>
+    <lastmod>2018-12-13T18:41:35+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/blog/%E4%B8%89%E6%95%B0%E4%B9%8B%E5%92%8C/</loc>
     <lastmod>2018-12-12T13:09:34+08:00</lastmod>
   </url>
@@ -276,7 +281,7 @@
   
   <url>
     <loc>/blog/</loc>
-    <lastmod>2018-12-12T13:09:34+08:00</lastmod>
+    <lastmod>2018-12-13T18:41:35+08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -327,7 +332,19 @@
   
   <url>
     <loc>/</loc>
-    <lastmod>2018-12-12T13:09:34+08:00</lastmod>
+    <lastmod>2018-12-13T18:41:35+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/acl/</loc>
+    <lastmod>2018-12-13T18:41:35+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/go/</loc>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

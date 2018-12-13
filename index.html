@@ -21,8 +21,8 @@
         "accountablePerson" : "",
         "copyrightHolder" : "",
         "copyrightYear" : "2018",
-        "datePublished": "2018-12-12 13:09:34 &#43;0800 CST",
-        "dateModified" : "2018-12-12 13:09:34 &#43;0800 CST",
+        "datePublished": "2018-12-13 18:41:35 &#43;0800 CST",
+        "dateModified" : "2018-12-13 18:41:35 &#43;0800 CST",
         "url" : "/",
         "wordCount" : "0",
         "keywords" : [ "Blog" ]
@@ -72,7 +72,7 @@
 <meta property="og:description" content="Keep Coding,Keep Windy" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="/" />
-<meta property="og:updated_time" content="2018-12-12T13:09:34&#43;08:00"/>
+<meta property="og:updated_time" content="2018-12-13T18:41:35&#43;08:00"/>
 
         <meta property="og:image" content="//images/logo.png">
         <meta property="og:image:type" content="image/png">
@@ -270,6 +270,18 @@
                 
                         <article class="mini-post">
                             <header>
+                                <h3><a href="/blog/example-acl/">Example ACL</a></h3>
+                                
+                                <time class="published" datetime=
+                                    '2018-12-13'>
+                                    December 13, 2018</time>
+                            </header>
+                            
+
+                        </article>
+                
+                        <article class="mini-post">
+                            <header>
                                 <h3><a href="/blog/%E4%B8%89%E6%95%B0%E4%B9%8B%E5%92%8C/">三数之和</a></h3>
                                 
                                 <time class="published" datetime=
@@ -352,18 +364,6 @@
 
                         </article>
                 
-                        <article class="mini-post">
-                            <header>
-                                <h3><a href="/blog/%E6%97%8B%E8%BD%AC%E5%9B%BE%E5%83%8F/">旋转图像</a></h3>
-                                
-                                <time class="published" datetime=
-                                    '2018-12-09'>
-                                    December 9, 2018</time>
-                            </header>
-                            
-
-                        </article>
-                
 
                 
                     <a href=
@@ -386,19 +386,21 @@
   <header>
     <div class="title">
         
-            <h2><a href="/blog/%E4%B8%89%E6%95%B0%E4%B9%8B%E5%92%8C/">三数之和</a></h2>
+            <h2><a href="/blog/example-acl/">Example ACL</a></h2>
         
+        
+            <p>go进行用户管理控制的源码阅读</p>
         
     </div>
     <div class="meta">
         
 
         <time class="published"
-            datetime='2018-12-12'>
-            December 12, 2018</time>
+            datetime='2018-12-13'>
+            December 13, 2018</time>
         <span class="author">Abser</span>
         
-            <p>1 minute read</p>
+            <p>2 minute read</p>
         
         
     </div>
@@ -413,7 +415,7 @@
 
 
 <li>
-  <a href="//twitter.com/share?url=%2fblog%2f%25E4%25B8%2589%25E6%2595%25B0%25E4%25B9%258B%25E5%2592%258C%2f&amp;text=%e4%b8%89%e6%95%b0%e4%b9%8b%e5%92%8c&amp;via=example" target="_blank" class="share-btn twitter">
+  <a href="//twitter.com/share?url=%2fblog%2fexample-acl%2f&amp;text=Example%20ACL&amp;via=example" target="_blank" class="share-btn twitter">
     <i class="fa fa-twitter"></i>
     <p>Twitter</p>
     </a>
@@ -429,7 +431,7 @@
 
 
 <li>
-  <a href="//reddit.com/submit?url=%2fblog%2f%25E4%25B8%2589%25E6%2595%25B0%25E4%25B9%258B%25E5%2592%258C%2f&amp;title=%e4%b8%89%e6%95%b0%e4%b9%8b%e5%92%8c" target="_blank" class="share-btn reddit">
+  <a href="//reddit.com/submit?url=%2fblog%2fexample-acl%2f&amp;title=Example%20ACL" target="_blank" class="share-btn reddit">
     <i class="fa fa-reddit-alien"></i>
     <p>Reddit</p>
   </a>
@@ -448,7 +450,7 @@
 
 
 <li>
-  <a href="mailto:?subject=Check out this post by Abser&amp;body=%2fblog%2f%25E4%25B8%2589%25E6%2595%25B0%25E4%25B9%258B%25E5%2592%258C%2f" target="_blank" class="share-btn email">
+  <a href="mailto:?subject=Check out this post by Abser&amp;body=%2fblog%2fexample-acl%2f" target="_blank" class="share-btn email">
     <i class="fa fa-envelope"></i>
     <p>Email</p>
   </a>
@@ -464,85 +466,74 @@
   <div id="content">
     
 
-<h2 id="问题描述">问题描述</h2>
+<h1 id="项目简介">项目简介</h1>
 
-<p>给定一个包含 *n* 个整数的数组 <code>nums</code>，判断 <code>nums</code> 中是否存在三个元素 *a，b，c ，*使得 *a + b + c = *0 ？找出所有满足条件且不重复的三元组。</p>
+<h2 id="tl-dr">TL;DR;</h2>
 
-<p><strong>注意：</strong>答案中不可以包含重复的三元组。</p>
+<p><em>acl</em> is a lightweight acl manager for <em>go</em>.</p>
 
-<h3 id="示例">示例</h3>
+<h2 id="features">Features</h2>
 
-<pre><code>例如, 给定数组 nums = [-1, 0, 1, 2, -1, -4]，
+<ul>
+<li>Design simple &amp; reusable roles to empower your application.</li>
+<li>Acquire the rights of other roles to build a powerful set of permissions.</li>
+<li>Resolve possible roles by examine them in an unified way.</li>
+</ul>
 
-满足要求的三元组集合为：
-[
-  [-1, 0, 1],
-  [-1, -1, 2]
-]
-</code></pre>
+<h2 id="example">Example</h2>
 
-<h3 id="思路及实现">思路及实现</h3>
-
-<pre><code class="language-go">func threeSum(nums []int) [][]int {
-	// 排序后，可以按规律查找
-	sort.Ints(nums)
-	res := [][]int{}
-
-	for i := range nums {
-		// 避免添加重复的结果
-		// i&gt;0 是为了防止nums[i-1]溢出
-		if i &gt; 0 &amp;&amp; nums[i] == nums[i-1] {
-			continue
-		}
-
-		l, r := i+1, len(nums)-1
-
-		for l &lt; r {
-			s := nums[i] + nums[l] + nums[r]
-			switch {
-			case s &lt; 0:
-				// 较小的 l 需要变大
-				l++
-			case s &gt; 0:
-				// 较大的 r 需要变小
-				r--
-			default:
-				res = append(res, []int{nums[i], nums[l], nums[r]})
-				// 为避免重复添加，l 和 r 都需要移动到不同的元素上。
-				l, r = next(nums, l, r)
-			}
-		}
-	}
-
-	return res
+<pre><code class="language-go">type User struct {
+    isAdmin bool
 }
 
-func next(nums []int, l, r int) (int, int) {
-	for l &lt; r {
-		switch {
-		case nums[l] == nums[l+1]:
-			l++
-		case nums[r] == nums[r-1]:
-			r--
-		default:
-			l++
-			r--
-			return l, r
-		}
-	}
+func main() {
+    // first of all: create a new manager instance to register all your roles in one place
+    manager := acl.NewManager()
 
-	return l, r
-} } else {
-                j++
-                for j &lt; k &amp;&amp; nums[j-1] == nums[j] {
-                    j++
-                }
-            }
-        }
+    // now you can use `Ensure` to guarantee that the role with the passed identifier is present
+    user := manager.Ensure(&quot;user&quot;).Grant(&quot;profile.edit&quot;)
+    // use `Grant`, `Revoke` and `AcquireFrom` to extend the right stack
+    editor := manager.Ensure(&quot;editor&quot;).Grant(&quot;news.list&quot;, &quot;news.create&quot;, &quot;news.edit&quot;).AcquireFrom(user)
+
+    // you can also use NewRole to create a Role manually
+    admin := acl.NewRole(&quot;admin&quot;).Grant(&quot;news.delete&quot;).AcquireFrom(editor)
+    // note, that you have to register the role by yourself
+    manager.Register(admin)
+
+    // to check if a right was granted to a role you can use:
+    var hasAccess bool
+    hasAccess = admin.Has(&quot;some.right&quot;)
+
+    // to check if at least one of the expected rights is present:
+    hasAccess = admin.HasOneOf(&quot;news.list&quot;, &quot;news.create&quot;)
+
+    // ... and finally, to check that all the expected rights are present, use:
+    hasAccess = admin.HasAllOf(&quot;news.delete&quot;, &quot;news.list&quot;)
+
+    // a role can be extended with an examiner to determine whether a role can be added
+    // to a `ResultSet`
+    admin.SetExaminer(func (payload interface{}) bool {
+        user := payload.(User)
+        return user.isAdmin
+    })
+
+    // to get a result set you can use the managers `Examine` function
+    rs := manager.Examine(User{isAdmin: true})
+
+    // a result set contains &quot;Has&quot;, &quot;HasOneOf&quot; and &quot;HasAllOf&quot; as described above and...
+    // `GetRole` to grab specific roles from the result set
+    expectedRole := rs.GetRole(&quot;admin&quot;)
+
+    // you can also check if a role was added to a result set using:
+    if rs.HasRole(&quot;admin&quot;) {
+        // ...
     }
-    return result
 }
 </code></pre>
+
+<h2 id="blueprint">Blueprint</h2>
+
+<p><img src="http://bmob-cdn-22876.b0.upaiyun.com/2018/12/13/ac72fe7e40e7a8658074a669bb56ab13.jpg" alt="MrBoolean_acl" /></p>
 
   </div>
 
@@ -556,7 +547,10 @@ func next(nums []int, l, r int) (int, int) {
                 <i class="fa fa-folder"></i>
                 
                 
-                <li><a class="article-category-link" href="/categories/leetcode-middle">leetcode-middle</a></li>
+                <li><a class="article-category-link" href="/categories/acl">acl</a></li>
+                
+                
+                <li><a class="article-category-link" href="/categories/go">go</a></li>
                 
             
         
@@ -599,8 +593,8 @@ func next(nums []int, l, r int) (int, int) {
 
 <ul class="actions pagination">
     
-        <li><a href="/blog/%E4%B8%A4%E4%B8%AA%E6%8E%92%E5%BA%8F%E6%95%B0%E7%BB%84%E7%9A%84%E4%B8%AD%E4%BD%8D%E6%95%B0/"
-                class="button big previous">两个排序数组的中位数</a></li>
+        <li><a href="/blog/%E4%B8%89%E6%95%B0%E4%B9%8B%E5%92%8C/"
+                class="button big previous">三数之和</a></li>
     
 
     
@@ -619,7 +613,7 @@ func next(nums []int, l, r int) (int, int) {
 
 
 <li>
-  <a href="//twitter.com/share?url=%2fblog%2f%25E4%25B8%2589%25E6%2595%25B0%25E4%25B9%258B%25E5%2592%258C%2f&amp;text=%e4%b8%89%e6%95%b0%e4%b9%8b%e5%92%8c&amp;via=example" target="_blank" class="share-btn twitter">
+  <a href="//twitter.com/share?url=%2fblog%2fexample-acl%2f&amp;text=Example%20ACL&amp;via=example" target="_blank" class="share-btn twitter">
     <i class="fa fa-twitter"></i>
     <p>Twitter</p>
     </a>
@@ -635,7 +629,7 @@ func next(nums []int, l, r int) (int, int) {
 
 
 <li>
-  <a href="//reddit.com/submit?url=%2fblog%2f%25E4%25B8%2589%25E6%2595%25B0%25E4%25B9%258B%25E5%2592%258C%2f&amp;title=%e4%b8%89%e6%95%b0%e4%b9%8b%e5%92%8c" target="_blank" class="share-btn reddit">
+  <a href="//reddit.com/submit?url=%2fblog%2fexample-acl%2f&amp;title=Example%20ACL" target="_blank" class="share-btn reddit">
     <i class="fa fa-reddit-alien"></i>
     <p>Reddit</p>
   </a>
@@ -654,7 +648,7 @@ func next(nums []int, l, r int) (int, int) {
 
 
 <li>
-  <a href="mailto:?subject=Check out this post by Abser&amp;body=%2fblog%2f%25E4%25B8%2589%25E6%2595%25B0%25E4%25B9%258B%25E5%2592%258C%2f" target="_blank" class="share-btn email">
+  <a href="mailto:?subject=Check out this post by Abser&amp;body=%2fblog%2fexample-acl%2f" target="_blank" class="share-btn email">
     <i class="fa fa-envelope"></i>
     <p>Email</p>
   </a>
@@ -819,6 +813,20 @@ func next(nums []int, l, r int) (int, int) {
           <article class="mini-post">
             <header>
               <h3>
+                <a href="/blog/example-acl/">Example ACL</a>
+              </h3>
+              
+              <time class="published" datetime='2018-12-13'>
+                December 13, 2018
+              </time>
+            </header>
+            
+
+          </article>
+        
+          <article class="mini-post">
+            <header>
+              <h3>
                 <a href="/blog/%E4%B8%89%E6%95%B0%E4%B9%8B%E5%92%8C/">三数之和</a>
               </h3>
               
@@ -904,20 +912,6 @@ func next(nums []int, l, r int) (int, int) {
             <header>
               <h3>
                 <a href="/blog/%E7%9B%9B%E6%9C%80%E5%A4%9A%E6%B0%B4%E7%9A%84%E5%AE%B9%E5%99%A8/">盛最多水的容器</a>
-              </h3>
-              
-              <time class="published" datetime='2018-12-09'>
-                December 9, 2018
-              </time>
-            </header>
-            
-
-          </article>
-        
-          <article class="mini-post">
-            <header>
-              <h3>
-                <a href="/blog/%E6%97%8B%E8%BD%AC%E5%9B%BE%E5%83%8F/">旋转图像</a>
               </h3>
               
               <time class="published" datetime='2018-12-09'>
@@ -1049,6 +1043,28 @@ func next(nums []int, l, r int) (int, int) {
             <header>
               
                 <a href="/categories/jekyll/">Jekyll</a>
+                <span style="float:right;">1</span>
+              
+            </header>
+          </article>
+        </p>
+        
+        <p>
+          <article>
+            <header>
+              
+                <a href="/categories/acl/">acl</a>
+                <span style="float:right;">1</span>
+              
+            </header>
+          </article>
+        </p>
+        
+        <p>
+          <article>
+            <header>
+              
+                <a href="/categories/go/">go</a>
                 <span style="float:right;">1</span>
               
             </header>
