@@ -21,8 +21,8 @@
         "accountablePerson" : "",
         "copyrightHolder" : "",
         "copyrightYear" : "2018",
-        "datePublished": "2018-12-13 18:41:35 &#43;0800 CST",
-        "dateModified" : "2018-12-13 18:41:35 &#43;0800 CST",
+        "datePublished": "2018-12-14 00:00:00 &#43;0000 UTC",
+        "dateModified" : "2018-12-14 00:00:00 &#43;0000 UTC",
         "url" : "/",
         "wordCount" : "0",
         "keywords" : [ "Blog" ]
@@ -72,7 +72,7 @@
 <meta property="og:description" content="Keep Coding,Keep Windy" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="/" />
-<meta property="og:updated_time" content="2018-12-13T18:41:35&#43;08:00"/>
+<meta property="og:updated_time" content="2018-12-14T00:00:00&#43;00:00"/>
 
         <meta property="og:image" content="//images/logo.png">
         <meta property="og:image:type" content="image/png">
@@ -270,6 +270,45 @@
                 
                         <article class="mini-post">
                             <header>
+                                <h3><a href="/blog/produce-consume/">Produce Consume</a></h3>
+                                
+                                <time class="published" datetime=
+                                    '2018-12-14'>
+                                    December 14, 2018</time>
+                            </header>
+                            
+    
+
+    
+        
+        
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+
+        
+        
+        
+
+        <a href="/blog/produce-consume/" class="image featured">
+            <img src="/img/2018/12/pic01.jpg" alt="">
+        </a>
+    
+
+
+                        </article>
+                
+                        <article class="mini-post">
+                            <header>
                                 <h3><a href="/blog/example-acl/">Example ACL</a></h3>
                                 
                                 <time class="published" datetime=
@@ -352,18 +391,6 @@
 
                         </article>
                 
-                        <article class="mini-post">
-                            <header>
-                                <h3><a href="/blog/%E7%9B%9B%E6%9C%80%E5%A4%9A%E6%B0%B4%E7%9A%84%E5%AE%B9%E5%99%A8/">盛最多水的容器</a></h3>
-                                
-                                <time class="published" datetime=
-                                    '2018-12-09'>
-                                    December 9, 2018</time>
-                            </header>
-                            
-
-                        </article>
-                
 
                 
                     <a href=
@@ -386,18 +413,18 @@
   <header>
     <div class="title">
         
-            <h2><a href="/blog/example-acl/">Example ACL</a></h2>
+            <h2><a href="/blog/produce-consume/">Produce Consume</a></h2>
         
         
-            <p>go进行用户管理控制的源码阅读</p>
+            <p>多生产者单消费者模型</p>
         
     </div>
     <div class="meta">
         
 
         <time class="published"
-            datetime='2018-12-13'>
-            December 13, 2018</time>
+            datetime='2018-12-14'>
+            December 14, 2018</time>
         <span class="author">Abser</span>
         
             <p>2 minute read</p>
@@ -415,7 +442,7 @@
 
 
 <li>
-  <a href="//twitter.com/share?url=%2fblog%2fexample-acl%2f&amp;text=Example%20ACL&amp;via=example" target="_blank" class="share-btn twitter">
+  <a href="//twitter.com/share?url=%2fblog%2fproduce-consume%2f&amp;text=Produce%20Consume&amp;via=example" target="_blank" class="share-btn twitter">
     <i class="fa fa-twitter"></i>
     <p>Twitter</p>
     </a>
@@ -431,7 +458,7 @@
 
 
 <li>
-  <a href="//reddit.com/submit?url=%2fblog%2fexample-acl%2f&amp;title=Example%20ACL" target="_blank" class="share-btn reddit">
+  <a href="//reddit.com/submit?url=%2fblog%2fproduce-consume%2f&amp;title=Produce%20Consume" target="_blank" class="share-btn reddit">
     <i class="fa fa-reddit-alien"></i>
     <p>Reddit</p>
   </a>
@@ -450,7 +477,7 @@
 
 
 <li>
-  <a href="mailto:?subject=Check out this post by Abser&amp;body=%2fblog%2fexample-acl%2f" target="_blank" class="share-btn email">
+  <a href="mailto:?subject=Check out this post by Abser&amp;body=%2fblog%2fproduce-consume%2f" target="_blank" class="share-btn email">
     <i class="fa fa-envelope"></i>
     <p>Email</p>
   </a>
@@ -462,78 +489,156 @@
   
 
   
+    
+
+    
+        
+        
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+
+        
+        
+        
+
+        <a href="/blog/produce-consume/" class="image featured">
+            <img src="/img/2018/12/pic01.jpg" alt="">
+        </a>
+    
+
 
   <div id="content">
     
 
-<h1 id="项目简介">项目简介</h1>
+<h2 id="processes-programming">__ Processes Programming__</h2>
 
-<h2 id="tl-dr">TL;DR;</h2>
+<h3 id="task-description">Task description:</h3>
 
-<p><em>acl</em> is a lightweight acl manager for <em>go</em>.</p>
+<p>Create 3 processes to handle data. One process *PGone* generates int numbers and stores them in a loop array including 10 elements. One process *PGtwo* also generates int numbers and stores them in the same loop array. One process *PS* stores the generated numbers into a txt file in hard disk.
+ </p>
 
-<h2 id="features">Features</h2>
+<h3 id="requests">Requests:</h3>
 
-<ul>
-<li>Design simple &amp; reusable roles to empower your application.</li>
-<li>Acquire the rights of other roles to build a powerful set of permissions.</li>
-<li>Resolve possible roles by examine them in an unified way.</li>
-</ul>
+<p>1. The 3 processes should work concurrently.
+2. *PGone and PGtwo *can generate numbers at any time as long as the array is not occupied by the other processes, and there still remains spaces or there exists elements that have been stored by <em>PS</em>.
+3. *PS *can store numbers at any time as long as there exists numbers that have not been stored.</p>
 
-<h2 id="example">Example</h2>
+<h2 id="solution">Solution</h2>
 
-<pre><code class="language-go">type User struct {
-    isAdmin bool
+<pre><code class="language-c">#include &lt;stdlib.h&gt;
+#include &lt;pthread.h&gt;
+#include &lt;semaphore.h&gt;
+#include &lt;unistd.h&gt;
+
+#define NBUFF 10
+#define MAXNTHREADS 20
+
+int nitems, npg;
+
+struct
+{
+    int buff[NBUFF];
+    int nput;
+    int nputval;
+    sem_t mutex, nempty, nstored;
+} shared;
+
+void *PG(), *PS();
+
+int main(int argc, char **argv)
+{
+    int i;
+    pthread_t tid_PG[MAXNTHREADS], tid_PS;
+
+    if (argc != 3)
+        exit(2);
+    nitems = atoi(argv[1]);
+    npg = atoi(argv[2]) &gt; MAXNTHREADS ? MAXNTHREADS : atoi(argv[2]);
+
+    /* initialize semaphores */
+    sem_init(&amp;shared.mutex, 0, 1);
+    sem_init(&amp;shared.nempty, 0, NBUFF);
+    sem_init(&amp;shared.nstored, 0, 0);
+
+    /* create PG and PS */
+    for (i = 0; i &lt; npg; i++)
+    {
+        pthread_create(&amp;tid_PG[i], NULL, PG, NULL);
+    }
+    pthread_create(&amp;tid_PS, NULL, PS, NULL);
+
+    /* wait for end */
+    for (i = 0; i &lt; npg; i++)
+    {
+        pthread_join(tid_PG[i], NULL);
+    }
+    pthread_join(tid_PS, NULL);
+
+    /* end work */
+    sem_destroy(&amp;shared.mutex);
+    sem_destroy(&amp;shared.nempty);
+    sem_destroy(&amp;shared.nstored);
+
+    exit(0);
 }
 
-func main() {
-    // first of all: create a new manager instance to register all your roles in one place
-    manager := acl.NewManager()
+void *
+PG()
+{
+    for (;;)
+    {
+        sem_wait(&amp;shared.nempty);
+        sem_wait(&amp;shared.mutex);
 
-    // now you can use `Ensure` to guarantee that the role with the passed identifier is present
-    user := manager.Ensure(&quot;user&quot;).Grant(&quot;profile.edit&quot;)
-    // use `Grant`, `Revoke` and `AcquireFrom` to extend the right stack
-    editor := manager.Ensure(&quot;editor&quot;).Grant(&quot;news.list&quot;, &quot;news.create&quot;, &quot;news.edit&quot;).AcquireFrom(user)
+        if (shared.nput &gt;= nitems)
+        {
+            sem_post(&amp;shared.nempty);
+            sem_post(&amp;shared.mutex);
+            return (NULL);
+        }
 
-    // you can also use NewRole to create a Role manually
-    admin := acl.NewRole(&quot;admin&quot;).Grant(&quot;news.delete&quot;).AcquireFrom(editor)
-    // note, that you have to register the role by yourself
-    manager.Register(admin)
+        /* generate int number */
+        shared.buff[shared.nput % NBUFF] = shared.nputval;
+        shared.nput++;
+        shared.nputval++;
 
-    // to check if a right was granted to a role you can use:
-    var hasAccess bool
-    hasAccess = admin.Has(&quot;some.right&quot;)
-
-    // to check if at least one of the expected rights is present:
-    hasAccess = admin.HasOneOf(&quot;news.list&quot;, &quot;news.create&quot;)
-
-    // ... and finally, to check that all the expected rights are present, use:
-    hasAccess = admin.HasAllOf(&quot;news.delete&quot;, &quot;news.list&quot;)
-
-    // a role can be extended with an examiner to determine whether a role can be added
-    // to a `ResultSet`
-    admin.SetExaminer(func (payload interface{}) bool {
-        user := payload.(User)
-        return user.isAdmin
-    })
-
-    // to get a result set you can use the managers `Examine` function
-    rs := manager.Examine(User{isAdmin: true})
-
-    // a result set contains &quot;Has&quot;, &quot;HasOneOf&quot; and &quot;HasAllOf&quot; as described above and...
-    // `GetRole` to grab specific roles from the result set
-    expectedRole := rs.GetRole(&quot;admin&quot;)
-
-    // you can also check if a role was added to a result set using:
-    if rs.HasRole(&quot;admin&quot;) {
-        // ...
+        usleep(300);
+        sem_post(&amp;shared.mutex);
+        sem_post(&amp;shared.nstored);
     }
 }
+
+void *
+PS()
+{
+    int i;
+
+    FILE *fpWrite = fopen(&quot;data.txt&quot;, &quot;w&quot;);
+    for (i = 0; i &lt; nitems; i++)
+    {
+        sem_wait(&amp;shared.nstored);
+        sem_wait(&amp;shared.mutex);
+
+        /*dosomething()*/
+        fprintf(fpWrite, &quot;%d&quot;, shared.buff[i % NBUFF]);
+        usleep(400);
+        sem_post(&amp;shared.mutex);
+        sem_post(&amp;shared.nempty);
+    }
+    fclose(fpWrite);
+    return NULL;
+}
 </code></pre>
-
-<h2 id="blueprint">Blueprint</h2>
-
-<p><img src="http://bmob-cdn-22876.b0.upaiyun.com/2018/12/13/ac72fe7e40e7a8658074a669bb56ab13.jpg" alt="MrBoolean_acl" /></p>
 
   </div>
 
@@ -547,10 +652,10 @@ func main() {
                 <i class="fa fa-folder"></i>
                 
                 
-                <li><a class="article-category-link" href="/categories/acl">acl</a></li>
+                <li><a class="article-category-link" href="/categories/c">C</a></li>
                 
                 
-                <li><a class="article-category-link" href="/categories/go">go</a></li>
+                <li><a class="article-category-link" href="/categories/unix%E7%BC%96%E7%A8%8B">Unix编程</a></li>
                 
             
         
@@ -593,8 +698,8 @@ func main() {
 
 <ul class="actions pagination">
     
-        <li><a href="/blog/%E4%B8%89%E6%95%B0%E4%B9%8B%E5%92%8C/"
-                class="button big previous">三数之和</a></li>
+        <li><a href="/blog/example-acl/"
+                class="button big previous">Example ACL</a></li>
     
 
     
@@ -613,7 +718,7 @@ func main() {
 
 
 <li>
-  <a href="//twitter.com/share?url=%2fblog%2fexample-acl%2f&amp;text=Example%20ACL&amp;via=example" target="_blank" class="share-btn twitter">
+  <a href="//twitter.com/share?url=%2fblog%2fproduce-consume%2f&amp;text=Produce%20Consume&amp;via=example" target="_blank" class="share-btn twitter">
     <i class="fa fa-twitter"></i>
     <p>Twitter</p>
     </a>
@@ -629,7 +734,7 @@ func main() {
 
 
 <li>
-  <a href="//reddit.com/submit?url=%2fblog%2fexample-acl%2f&amp;title=Example%20ACL" target="_blank" class="share-btn reddit">
+  <a href="//reddit.com/submit?url=%2fblog%2fproduce-consume%2f&amp;title=Produce%20Consume" target="_blank" class="share-btn reddit">
     <i class="fa fa-reddit-alien"></i>
     <p>Reddit</p>
   </a>
@@ -648,7 +753,7 @@ func main() {
 
 
 <li>
-  <a href="mailto:?subject=Check out this post by Abser&amp;body=%2fblog%2fexample-acl%2f" target="_blank" class="share-btn email">
+  <a href="mailto:?subject=Check out this post by Abser&amp;body=%2fblog%2fproduce-consume%2f" target="_blank" class="share-btn email">
     <i class="fa fa-envelope"></i>
     <p>Email</p>
   </a>
@@ -813,6 +918,47 @@ func main() {
           <article class="mini-post">
             <header>
               <h3>
+                <a href="/blog/produce-consume/">Produce Consume</a>
+              </h3>
+              
+              <time class="published" datetime='2018-12-14'>
+                December 14, 2018
+              </time>
+            </header>
+            
+    
+
+    
+        
+        
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+
+        
+        
+        
+
+        <a href="/blog/produce-consume/" class="image featured">
+            <img src="/img/2018/12/pic01.jpg" alt="">
+        </a>
+    
+
+
+          </article>
+        
+          <article class="mini-post">
+            <header>
+              <h3>
                 <a href="/blog/example-acl/">Example ACL</a>
               </h3>
               
@@ -898,20 +1044,6 @@ func main() {
             <header>
               <h3>
                 <a href="/blog/%E4%B8%A4%E6%95%B0%E7%9B%B8%E5%8A%A0/">两数相加</a>
-              </h3>
-              
-              <time class="published" datetime='2018-12-09'>
-                December 9, 2018
-              </time>
-            </header>
-            
-
-          </article>
-        
-          <article class="mini-post">
-            <header>
-              <h3>
-                <a href="/blog/%E7%9B%9B%E6%9C%80%E5%A4%9A%E6%B0%B4%E7%9A%84%E5%AE%B9%E5%99%A8/">盛最多水的容器</a>
               </h3>
               
               <time class="published" datetime='2018-12-09'>
@@ -1031,6 +1163,17 @@ func main() {
           <article>
             <header>
               
+                <a href="/categories/c/">C</a>
+                <span style="float:right;">1</span>
+              
+            </header>
+          </article>
+        </p>
+        
+        <p>
+          <article>
+            <header>
+              
                 <a href="/categories/go/">Go</a>
                 <span style="float:right;">1</span>
               
@@ -1043,6 +1186,17 @@ func main() {
             <header>
               
                 <a href="/categories/jekyll/">Jekyll</a>
+                <span style="float:right;">1</span>
+              
+            </header>
+          </article>
+        </p>
+        
+        <p>
+          <article>
+            <header>
+              
+                <a href="/categories/unix%E7%BC%96%E7%A8%8B/">Unix编程</a>
                 <span style="float:right;">1</span>
               
             </header>
