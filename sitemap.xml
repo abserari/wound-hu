@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/blog/tokenbucket/</loc>
+    <lastmod>2018-12-19T17:38:01+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/blog/produce-consume/</loc>
     <lastmod>2018-12-14T00:00:00+00:00</lastmod>
   </url>
@@ -280,13 +285,13 @@
   
   <url>
     <loc>/categories/algorithm/</loc>
-    <lastmod>2018-11-25T00:00:00+00:00</lastmod>
+    <lastmod>2018-12-19T17:38:01+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/blog/</loc>
-    <lastmod>2018-12-14T00:00:00+00:00</lastmod>
+    <lastmod>2018-12-19T17:38:01+08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -349,7 +354,7 @@
   
   <url>
     <loc>/</loc>
-    <lastmod>2018-12-14T00:00:00+00:00</lastmod>
+    <lastmod>2018-12-19T17:38:01+08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -386,6 +391,18 @@
   <url>
     <loc>/categories/leetcode-primary/</loc>
     <lastmod>2018-12-08T12:53:52+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/ratelimit/</loc>
+    <lastmod>2018-12-19T17:38:01+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/redis/</loc>
+    <lastmod>2018-11-25T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
