@@ -78,7 +78,7 @@
 示例 1 输入: [1,8,6,2,5,4,8,3,7] 输出: 49  思路 遍历 直接遍历每对可能出现的线段组合并找出这些情况之下的最大面积。
 双指针 两线段之间形成的区域总是会受到其中较短那条长度的限制。此外，两线段距离越远，得到的面积就越大。 在线段长度构成的数组中使用两个指针，一个放在开始，一个置于末尾。 此外，我们会使用变量 maxArea来持续存储到目前为止所获得的最大面积。 找出指针所指向的两条线段形成的区域，更新 maxArea，并将指向较短线段的指针向较长线段那端移动一步。
 实现 遍历 func maxArea(height []int) int { var maxArea int var curArea int for i := 0; i &lt; len(height)-1; i&#43;&#43; { for j := 0; j &lt; len(height); j&#43;&#43; { if height[i]&gt;height[j] { curArea = (j-i)*height[j] }else { curArea = (j-i)*height[i] } if curArea &gt; maxArea { maxArea = curArea } } } return maxArea }  双指针 func maxArea(height []int) int { maxArea := 0 for i, j := 0, len(height)-1; i &lt; j; { if height[i] &lt;= height[j] { curArea := height[i] * (j - i) if curArea &gt; maxArea { maxArea = curArea } i&#43;&#43; } else { curArea := height[j] * (j - i) if curArea &gt; maxArea { maxArea = curArea } j-- } } return area }  "/>
-<meta name="twitter:site" content="@example"/>
+<meta name="twitter:site" content="@abser61207966"/>
 
         <meta property="og:title" content="盛最多水的容器" />
 <meta property="og:description" content=" 问题描述 给定 *n* 个非负整数 a~1~，a~2，~&hellip;，a~n，~每个数代表坐标中的一个点 (i, ai) 。在坐标内画 *n* 条垂直线，垂直线 *i* 的两个端点分别为 (i, ai) 和 (i, 0)。找出其中的两条线，使得它们与 *x* 轴共同构成的容器可以容纳最多的水。
@@ -369,7 +369,7 @@
         
 
         <a href="/blog/produce-consume/" class="image featured">
-            <img src="/img/2018/122018/12/pic01.jpg" alt="">
+            <img src="/img/2018/12/pic01.jpg" alt="">
         </a>
     
 
@@ -474,7 +474,7 @@
 
 
 <li>
-  <a href="//twitter.com/share?url=%2fblog%2f%25E7%259B%259B%25E6%259C%2580%25E5%25A4%259A%25E6%25B0%25B4%25E7%259A%2584%25E5%25AE%25B9%25E5%2599%25A8%2f&amp;text=%e7%9b%9b%e6%9c%80%e5%a4%9a%e6%b0%b4%e7%9a%84%e5%ae%b9%e5%99%a8&amp;via=example" target="_blank" class="share-btn twitter">
+  <a href="//twitter.com/share?url=%2fblog%2f%25E7%259B%259B%25E6%259C%2580%25E5%25A4%259A%25E6%25B0%25B4%25E7%259A%2584%25E5%25AE%25B9%25E5%2599%25A8%2f&amp;text=%e7%9b%9b%e6%9c%80%e5%a4%9a%e6%b0%b4%e7%9a%84%e5%ae%b9%e5%99%a8&amp;via=abser61207966" target="_blank" class="share-btn twitter">
     <i class="fa fa-twitter"></i>
     <p>Twitter</p>
     </a>
@@ -571,7 +571,7 @@
 
 
 <li>
-  <a href="//twitter.com/share?url=%2fblog%2f%25E7%259B%259B%25E6%259C%2580%25E5%25A4%259A%25E6%25B0%25B4%25E7%259A%2584%25E5%25AE%25B9%25E5%2599%25A8%2f&amp;text=%e7%9b%9b%e6%9c%80%e5%a4%9a%e6%b0%b4%e7%9a%84%e5%ae%b9%e5%99%a8&amp;via=example" target="_blank" class="share-btn twitter">
+  <a href="//twitter.com/share?url=%2fblog%2f%25E7%259B%259B%25E6%259C%2580%25E5%25A4%259A%25E6%25B0%25B4%25E7%259A%2584%25E5%25AE%25B9%25E5%2599%25A8%2f&amp;text=%e7%9b%9b%e6%9c%80%e5%a4%9a%e6%b0%b4%e7%9a%84%e5%ae%b9%e5%99%a8&amp;via=abser61207966" target="_blank" class="share-btn twitter">
     <i class="fa fa-twitter"></i>
     <p>Twitter</p>
     </a>
@@ -847,9 +847,11 @@
 
 
 
-  <li><a href="//facebook.com/example" target="_blank" title="Facebook" class="fa fa-facebook"></a></li>
+  <li><a href="//facebook.com/Ari%20Abser" target="_blank" title="Facebook" class="fa fa-facebook"></a></li>
 
 
+
+  <li><a href="//plus.google.com/+abser@foxmail.com" target="_blank" title="Google+" class="fa fa-google-plus"></a></li>
 
 
 
@@ -881,7 +883,7 @@
 
 
 
-  <li><a href="//twitter.com/example" target="_blank" title="Twitter" class="fa fa-twitter"></a></li>
+  <li><a href="//twitter.com/abser61207966" target="_blank" title="Twitter" class="fa fa-twitter"></a></li>
 
 
 
@@ -952,6 +954,9 @@
 
 
   
+  
+    
+  
 
 
         
@@ -959,7 +964,7 @@
         
 
         <a href="/blog/tokenbucket/" class="image featured">
-            <img src="/img//pic02.jpg" alt="">
+            <img src="/img/2018/12/pic02.jpg" alt="">
         </a>
     
 
@@ -1380,9 +1385,11 @@
 
 
 
-  <li><a href="//facebook.com/example" target="_blank" title="Facebook" class="fa fa-facebook"></a></li>
+  <li><a href="//facebook.com/Ari%20Abser" target="_blank" title="Facebook" class="fa fa-facebook"></a></li>
 
 
+
+  <li><a href="//plus.google.com/+abser@foxmail.com" target="_blank" title="Google+" class="fa fa-google-plus"></a></li>
 
 
 
@@ -1414,7 +1421,7 @@
 
 
 
-  <li><a href="//twitter.com/example" target="_blank" title="Twitter" class="fa fa-twitter"></a></li>
+  <li><a href="//twitter.com/abser61207966" target="_blank" title="Twitter" class="fa fa-twitter"></a></li>
 
 
 

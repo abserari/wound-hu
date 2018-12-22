@@ -72,7 +72,7 @@
 <meta name="twitter:description" content=" 问题描述 给定一个含有 n 个正整数的数组和一个正整数 s ，找出该数组中满足其和 ≥ s 的长度最小的连续子数组。如果不存在符合条件的连续子数组，返回 0。
 示例  输入: s = 7, nums = [2,3,1,2,4,3] 输出: 2 解释: 子数组 [4,3] 是该条件下的长度最小的连续子数组。  思路 使用一个可以扩张收缩的窗口来实现 窗口使用两个索引 l 和 r ，相当与一个滑块，滑块包含 nums[l&hellip;r] 这些元素，如果 nums[l..r] 的和小于目标值 s，那么 r 向后移一位，再次比较，直到大于目标值 s 之后，l 向前移动一位，缩小数组的长度。 遍历直到 right 到达数组末端。
 实现 Go 版本 func minSubArrayLen(s int, nums []int) int { n := len(nums) result := n &#43; 1 sum := 0 l, r := 0, -1 for l &lt; n { if r&#43;1 &lt; n &amp;&amp; sum &lt; s { r&#43;&#43; sum &#43;= nums[r] } else { sum -= nums[l] l&#43;&#43; } if sum &gt;= s { if r-l&#43;1 &lt; result { result = r - l &#43; 1 } } } if result == n&#43;1 { result = 0 } return result }  "/>
-<meta name="twitter:site" content="@example"/>
+<meta name="twitter:site" content="@abser61207966"/>
 
         <meta property="og:title" content="长度最小的子数组" />
 <meta property="og:description" content=" 问题描述 给定一个含有 n 个正整数的数组和一个正整数 s ，找出该数组中满足其和 ≥ s 的长度最小的连续子数组。如果不存在符合条件的连续子数组，返回 0。
@@ -462,7 +462,7 @@
 
 
 <li>
-  <a href="//twitter.com/share?url=%2fblog%2f%25E9%2595%25BF%25E5%25BA%25A6%25E6%259C%2580%25E5%25B0%258F%25E7%259A%2584%25E5%25AD%2590%25E6%2595%25B0%25E7%25BB%2584%2f&amp;text=%e9%95%bf%e5%ba%a6%e6%9c%80%e5%b0%8f%e7%9a%84%e5%ad%90%e6%95%b0%e7%bb%84&amp;via=example" target="_blank" class="share-btn twitter">
+  <a href="//twitter.com/share?url=%2fblog%2f%25E9%2595%25BF%25E5%25BA%25A6%25E6%259C%2580%25E5%25B0%258F%25E7%259A%2584%25E5%25AD%2590%25E6%2595%25B0%25E7%25BB%2584%2f&amp;text=%e9%95%bf%e5%ba%a6%e6%9c%80%e5%b0%8f%e7%9a%84%e5%ad%90%e6%95%b0%e7%bb%84&amp;via=abser61207966" target="_blank" class="share-btn twitter">
     <i class="fa fa-twitter"></i>
     <p>Twitter</p>
     </a>
@@ -559,7 +559,7 @@
 
 
 <li>
-  <a href="//twitter.com/share?url=%2fblog%2f%25E9%2595%25BF%25E5%25BA%25A6%25E6%259C%2580%25E5%25B0%258F%25E7%259A%2584%25E5%25AD%2590%25E6%2595%25B0%25E7%25BB%2584%2f&amp;text=%e9%95%bf%e5%ba%a6%e6%9c%80%e5%b0%8f%e7%9a%84%e5%ad%90%e6%95%b0%e7%bb%84&amp;via=example" target="_blank" class="share-btn twitter">
+  <a href="//twitter.com/share?url=%2fblog%2f%25E9%2595%25BF%25E5%25BA%25A6%25E6%259C%2580%25E5%25B0%258F%25E7%259A%2584%25E5%25AD%2590%25E6%2595%25B0%25E7%25BB%2584%2f&amp;text=%e9%95%bf%e5%ba%a6%e6%9c%80%e5%b0%8f%e7%9a%84%e5%ad%90%e6%95%b0%e7%bb%84&amp;via=abser61207966" target="_blank" class="share-btn twitter">
     <i class="fa fa-twitter"></i>
     <p>Twitter</p>
     </a>
@@ -809,9 +809,11 @@
 
 
 
-  <li><a href="//facebook.com/example" target="_blank" title="Facebook" class="fa fa-facebook"></a></li>
+  <li><a href="//facebook.com/Ari%20Abser" target="_blank" title="Facebook" class="fa fa-facebook"></a></li>
 
 
+
+  <li><a href="//plus.google.com/+abser@foxmail.com" target="_blank" title="Google+" class="fa fa-google-plus"></a></li>
 
 
 
@@ -843,7 +845,7 @@
 
 
 
-  <li><a href="//twitter.com/example" target="_blank" title="Twitter" class="fa fa-twitter"></a></li>
+  <li><a href="//twitter.com/abser61207966" target="_blank" title="Twitter" class="fa fa-twitter"></a></li>
 
 
 
@@ -1345,9 +1347,11 @@
 
 
 
-  <li><a href="//facebook.com/example" target="_blank" title="Facebook" class="fa fa-facebook"></a></li>
+  <li><a href="//facebook.com/Ari%20Abser" target="_blank" title="Facebook" class="fa fa-facebook"></a></li>
 
 
+
+  <li><a href="//plus.google.com/+abser@foxmail.com" target="_blank" title="Google+" class="fa fa-google-plus"></a></li>
 
 
 
@@ -1379,7 +1383,7 @@
 
 
 
-  <li><a href="//twitter.com/example" target="_blank" title="Twitter" class="fa fa-twitter"></a></li>
+  <li><a href="//twitter.com/abser61207966" target="_blank" title="Twitter" class="fa fa-twitter"></a></li>
 
 
 

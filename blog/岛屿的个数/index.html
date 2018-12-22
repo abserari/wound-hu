@@ -72,7 +72,7 @@
 <meta name="twitter:description" content=" 问题描述 给定一个由 &#39;1&#39;（陆地）和 &#39;0&#39;（水）组成的的二维网格，计算岛屿的数量。一个岛被水包围，并且它是通过水平方向或垂直方向上相邻的陆地连接而成的。你可以假设网格的四个边均被水包围。
 示例 1 输入: 11110 11010 11000 00000 输出: 1  示例 2 输入: 11000 11000 00100 00011 输出: 3  思路 遍历每一个网格，如果存在，则以此为起点，向4个方向扩张，如果是岛屿&rsquo;1&rsquo;就置为&rsquo;0&rsquo;，表示这个岛屿是刚才的岛屿的一部分。最后返回 island 的个数
 实现 Go 版本 func numIslands(grid [][]byte) int { islands := 0 for i,_ := range grid { for j,_ := range grid[i]{ if grid[i][j] == &#39;1&#39; { islands&#43;&#43; expandIsland(grid, i, j) } } } return islands } func expandIsland(grid [][]byte, m int, n int){ if m &gt;= 0 &amp;&amp; m &lt; len(grid) &amp;&amp; n &gt;= 0 &amp;&amp; n &lt; len(grid[m]) &amp;&amp; grid[m][n] == &#39;1&#39; { grid[m][n] = &#39;0&#39; expandIsland(grid, m-1, n) expandIsland(grid, m&#43;1, n) expandIsland(grid, m, n-1) expandIsland(grid, m, n&#43;1) } }  "/>
-<meta name="twitter:site" content="@example"/>
+<meta name="twitter:site" content="@abser61207966"/>
 
         <meta property="og:title" content="岛屿的个数" />
 <meta property="og:description" content=" 问题描述 给定一个由 &#39;1&#39;（陆地）和 &#39;0&#39;（水）组成的的二维网格，计算岛屿的数量。一个岛被水包围，并且它是通过水平方向或垂直方向上相邻的陆地连接而成的。你可以假设网格的四个边均被水包围。
@@ -462,7 +462,7 @@
 
 
 <li>
-  <a href="//twitter.com/share?url=%2fblog%2f%25E5%25B2%259B%25E5%25B1%25BF%25E7%259A%2584%25E4%25B8%25AA%25E6%2595%25B0%2f&amp;text=%e5%b2%9b%e5%b1%bf%e7%9a%84%e4%b8%aa%e6%95%b0&amp;via=example" target="_blank" class="share-btn twitter">
+  <a href="//twitter.com/share?url=%2fblog%2f%25E5%25B2%259B%25E5%25B1%25BF%25E7%259A%2584%25E4%25B8%25AA%25E6%2595%25B0%2f&amp;text=%e5%b2%9b%e5%b1%bf%e7%9a%84%e4%b8%aa%e6%95%b0&amp;via=abser61207966" target="_blank" class="share-btn twitter">
     <i class="fa fa-twitter"></i>
     <p>Twitter</p>
     </a>
@@ -559,7 +559,7 @@
 
 
 <li>
-  <a href="//twitter.com/share?url=%2fblog%2f%25E5%25B2%259B%25E5%25B1%25BF%25E7%259A%2584%25E4%25B8%25AA%25E6%2595%25B0%2f&amp;text=%e5%b2%9b%e5%b1%bf%e7%9a%84%e4%b8%aa%e6%95%b0&amp;via=example" target="_blank" class="share-btn twitter">
+  <a href="//twitter.com/share?url=%2fblog%2f%25E5%25B2%259B%25E5%25B1%25BF%25E7%259A%2584%25E4%25B8%25AA%25E6%2595%25B0%2f&amp;text=%e5%b2%9b%e5%b1%bf%e7%9a%84%e4%b8%aa%e6%95%b0&amp;via=abser61207966" target="_blank" class="share-btn twitter">
     <i class="fa fa-twitter"></i>
     <p>Twitter</p>
     </a>
@@ -819,9 +819,11 @@ func expandIsland(grid [][]byte, m int, n int){
 
 
 
-  <li><a href="//facebook.com/example" target="_blank" title="Facebook" class="fa fa-facebook"></a></li>
+  <li><a href="//facebook.com/Ari%20Abser" target="_blank" title="Facebook" class="fa fa-facebook"></a></li>
 
 
+
+  <li><a href="//plus.google.com/+abser@foxmail.com" target="_blank" title="Google+" class="fa fa-google-plus"></a></li>
 
 
 
@@ -853,7 +855,7 @@ func expandIsland(grid [][]byte, m int, n int){
 
 
 
-  <li><a href="//twitter.com/example" target="_blank" title="Twitter" class="fa fa-twitter"></a></li>
+  <li><a href="//twitter.com/abser61207966" target="_blank" title="Twitter" class="fa fa-twitter"></a></li>
 
 
 
@@ -1355,9 +1357,11 @@ func expandIsland(grid [][]byte, m int, n int){
 
 
 
-  <li><a href="//facebook.com/example" target="_blank" title="Facebook" class="fa fa-facebook"></a></li>
+  <li><a href="//facebook.com/Ari%20Abser" target="_blank" title="Facebook" class="fa fa-facebook"></a></li>
 
 
+
+  <li><a href="//plus.google.com/+abser@foxmail.com" target="_blank" title="Google+" class="fa fa-google-plus"></a></li>
 
 
 
@@ -1389,7 +1393,7 @@ func expandIsland(grid [][]byte, m int, n int){
 
 
 
-  <li><a href="//twitter.com/example" target="_blank" title="Twitter" class="fa fa-twitter"></a></li>
+  <li><a href="//twitter.com/abser61207966" target="_blank" title="Twitter" class="fa fa-twitter"></a></li>
 
 
 

@@ -76,7 +76,7 @@
 注意：给定数组保证不包含元素&rdquo;0&rdquo;。
 示例 1 给定数组[-1, 2], 没有循环。  示例 2 给定数组 [2, -1, 1, 2, 2], 有一个循环，从索引 0 -&gt; 2 -&gt; 3 -&gt; 0。  思路 这里的循环必须是只向前或者只向后形成循环，即一个循环中，都是正数或者负数。 根据坐标建立一对一的映射，一旦某个达到的坐标已经有映射了，说明环存在。 建立一个 v 数组，来记录访问过的数字，然后遍历原数组，如果当前数字已经访问过了，直接跳过，否则就以当前位置坐标为起始点开始查找 将当前位置在 v 数组中标记 true ，然后查找当前位置坐标加上对应的数字的新索引，由于是循环数组，所以结果可能会超出数组的长度，所以要对数组长度取余。（数字可能是负数，补上一个n，使其变为正数） 检查：如果 next 和 cur 相等，说明此时是一个数字的循环，弃掉 如果一个循环中不全是负数或正数，也要弃掉
 实现 Go 版本 func circularArrayLoop(nums []int) bool { m := make(map[int]int) n := len(nums) v := make([]bool, n) for i := 0; i &lt; n; i&#43;&#43; { if v[i] { continue } cur := i for { v[cur] = true next := (cur &#43; nums[cur]) % n if next &lt; 0 { next &#43;= n } if next == cur || nums[next]*nums[cur] &lt; 0 { break } if m[next] !"/>
-<meta name="twitter:site" content="@example"/>
+<meta name="twitter:site" content="@abser61207966"/>
 
         <meta property="og:title" content="环形数组循环" />
 <meta property="og:description" content="问题描述 给定一组含有正整数和负整数的数组。如果某个索引中的 n 是正数的，则向前移动 n 个索引。相反，如果是负数(-n)，则向后移动 n 个索引。
@@ -470,7 +470,7 @@
 
 
 <li>
-  <a href="//twitter.com/share?url=%2fblog%2f%25E7%258E%25AF%25E5%25BD%25A2%25E6%2595%25B0%25E7%25BB%2584%25E5%25BE%25AA%25E7%258E%25AF%2f&amp;text=%e7%8e%af%e5%bd%a2%e6%95%b0%e7%bb%84%e5%be%aa%e7%8e%af&amp;via=example" target="_blank" class="share-btn twitter">
+  <a href="//twitter.com/share?url=%2fblog%2f%25E7%258E%25AF%25E5%25BD%25A2%25E6%2595%25B0%25E7%25BB%2584%25E5%25BE%25AA%25E7%258E%25AF%2f&amp;text=%e7%8e%af%e5%bd%a2%e6%95%b0%e7%bb%84%e5%be%aa%e7%8e%af&amp;via=abser61207966" target="_blank" class="share-btn twitter">
     <i class="fa fa-twitter"></i>
     <p>Twitter</p>
     </a>
@@ -567,7 +567,7 @@
 
 
 <li>
-  <a href="//twitter.com/share?url=%2fblog%2f%25E7%258E%25AF%25E5%25BD%25A2%25E6%2595%25B0%25E7%25BB%2584%25E5%25BE%25AA%25E7%258E%25AF%2f&amp;text=%e7%8e%af%e5%bd%a2%e6%95%b0%e7%bb%84%e5%be%aa%e7%8e%af&amp;via=example" target="_blank" class="share-btn twitter">
+  <a href="//twitter.com/share?url=%2fblog%2f%25E7%258E%25AF%25E5%25BD%25A2%25E6%2595%25B0%25E7%25BB%2584%25E5%25BE%25AA%25E7%258E%25AF%2f&amp;text=%e7%8e%af%e5%bd%a2%e6%95%b0%e7%bb%84%e5%be%aa%e7%8e%af&amp;via=abser61207966" target="_blank" class="share-btn twitter">
     <i class="fa fa-twitter"></i>
     <p>Twitter</p>
     </a>
@@ -829,9 +829,11 @@
 
 
 
-  <li><a href="//facebook.com/example" target="_blank" title="Facebook" class="fa fa-facebook"></a></li>
+  <li><a href="//facebook.com/Ari%20Abser" target="_blank" title="Facebook" class="fa fa-facebook"></a></li>
 
 
+
+  <li><a href="//plus.google.com/+abser@foxmail.com" target="_blank" title="Google+" class="fa fa-google-plus"></a></li>
 
 
 
@@ -863,7 +865,7 @@
 
 
 
-  <li><a href="//twitter.com/example" target="_blank" title="Twitter" class="fa fa-twitter"></a></li>
+  <li><a href="//twitter.com/abser61207966" target="_blank" title="Twitter" class="fa fa-twitter"></a></li>
 
 
 
@@ -1365,9 +1367,11 @@
 
 
 
-  <li><a href="//facebook.com/example" target="_blank" title="Facebook" class="fa fa-facebook"></a></li>
+  <li><a href="//facebook.com/Ari%20Abser" target="_blank" title="Facebook" class="fa fa-facebook"></a></li>
 
 
+
+  <li><a href="//plus.google.com/+abser@foxmail.com" target="_blank" title="Google+" class="fa fa-google-plus"></a></li>
 
 
 
@@ -1399,7 +1403,7 @@
 
 
 
-  <li><a href="//twitter.com/example" target="_blank" title="Twitter" class="fa fa-twitter"></a></li>
+  <li><a href="//twitter.com/abser61207966" target="_blank" title="Twitter" class="fa fa-twitter"></a></li>
 
 
 

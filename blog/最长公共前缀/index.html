@@ -76,7 +76,7 @@
 示例 1 输入: [&quot;flower&quot;,&quot;flow&quot;,&quot;flight&quot;] 输出: &quot;fl&quot;  示例 2 输入: [&quot;dog&quot;,&quot;racecar&quot;,&quot;car&quot;] 输出: &quot;&quot; 解释: 输入不存在公共前缀。  说明 所有输入只包含小写字母 a-z 。
 思路 按需匹配即可，遇到不符即可立即返回
 实现 func longestCommonPrefix(strs []string) string { short := shortest(strs) for i, r := range short { for j := 0; j &lt; len(strs); j&#43;&#43; { if strs[j][i] != byte(r) { return strs[j][:i] } } } return short } func shortest(strs []string) string { if len(strs) == 0 { return &quot;&quot; } res := strs[0] for _, s := range strs { if len(res) &gt; len(s) { res = s } } return res }  "/>
-<meta name="twitter:site" content="@example"/>
+<meta name="twitter:site" content="@abser61207966"/>
 
         <meta property="og:title" content="最长公共前缀" />
 <meta property="og:description" content=" 问题描述 编写一个函数来查找字符串数组中的最长公共前缀。
@@ -470,7 +470,7 @@
 
 
 <li>
-  <a href="//twitter.com/share?url=%2fblog%2f%25E6%259C%2580%25E9%2595%25BF%25E5%2585%25AC%25E5%2585%25B1%25E5%2589%258D%25E7%25BC%2580%2f&amp;text=%e6%9c%80%e9%95%bf%e5%85%ac%e5%85%b1%e5%89%8d%e7%bc%80&amp;via=example" target="_blank" class="share-btn twitter">
+  <a href="//twitter.com/share?url=%2fblog%2f%25E6%259C%2580%25E9%2595%25BF%25E5%2585%25AC%25E5%2585%25B1%25E5%2589%258D%25E7%25BC%2580%2f&amp;text=%e6%9c%80%e9%95%bf%e5%85%ac%e5%85%b1%e5%89%8d%e7%bc%80&amp;via=abser61207966" target="_blank" class="share-btn twitter">
     <i class="fa fa-twitter"></i>
     <p>Twitter</p>
     </a>
@@ -567,7 +567,7 @@
 
 
 <li>
-  <a href="//twitter.com/share?url=%2fblog%2f%25E6%259C%2580%25E9%2595%25BF%25E5%2585%25AC%25E5%2585%25B1%25E5%2589%258D%25E7%25BC%2580%2f&amp;text=%e6%9c%80%e9%95%bf%e5%85%ac%e5%85%b1%e5%89%8d%e7%bc%80&amp;via=example" target="_blank" class="share-btn twitter">
+  <a href="//twitter.com/share?url=%2fblog%2f%25E6%259C%2580%25E9%2595%25BF%25E5%2585%25AC%25E5%2585%25B1%25E5%2589%258D%25E7%25BC%2580%2f&amp;text=%e6%9c%80%e9%95%bf%e5%85%ac%e5%85%b1%e5%89%8d%e7%bc%80&amp;via=abser61207966" target="_blank" class="share-btn twitter">
     <i class="fa fa-twitter"></i>
     <p>Twitter</p>
     </a>
@@ -828,9 +828,11 @@ func shortest(strs []string) string {
 
 
 
-  <li><a href="//facebook.com/example" target="_blank" title="Facebook" class="fa fa-facebook"></a></li>
+  <li><a href="//facebook.com/Ari%20Abser" target="_blank" title="Facebook" class="fa fa-facebook"></a></li>
 
 
+
+  <li><a href="//plus.google.com/+abser@foxmail.com" target="_blank" title="Google+" class="fa fa-google-plus"></a></li>
 
 
 
@@ -862,7 +864,7 @@ func shortest(strs []string) string {
 
 
 
-  <li><a href="//twitter.com/example" target="_blank" title="Twitter" class="fa fa-twitter"></a></li>
+  <li><a href="//twitter.com/abser61207966" target="_blank" title="Twitter" class="fa fa-twitter"></a></li>
 
 
 
@@ -1364,9 +1366,11 @@ func shortest(strs []string) string {
 
 
 
-  <li><a href="//facebook.com/example" target="_blank" title="Facebook" class="fa fa-facebook"></a></li>
+  <li><a href="//facebook.com/Ari%20Abser" target="_blank" title="Facebook" class="fa fa-facebook"></a></li>
 
 
+
+  <li><a href="//plus.google.com/+abser@foxmail.com" target="_blank" title="Google+" class="fa fa-google-plus"></a></li>
 
 
 
@@ -1398,7 +1402,7 @@ func shortest(strs []string) string {
 
 
 
-  <li><a href="//twitter.com/example" target="_blank" title="Twitter" class="fa fa-twitter"></a></li>
+  <li><a href="//twitter.com/abser61207966" target="_blank" title="Twitter" class="fa fa-twitter"></a></li>
 
 
 

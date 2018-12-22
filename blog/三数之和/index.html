@@ -72,7 +72,7 @@
 <meta name="twitter:description" content=" 问题描述 给定一个包含 *n* 个整数的数组 nums，判断 nums 中是否存在三个元素 *a，b，c ，*使得 *a &#43; b &#43; c = *0 ？找出所有满足条件且不重复的三元组。
 注意：答案中不可以包含重复的三元组。
 示例 例如, 给定数组 nums = [-1, 0, 1, 2, -1, -4]， 满足要求的三元组集合为： [ [-1, 0, 1], [-1, -1, 2] ]  思路及实现 func threeSum(nums []int) [][]int { // 排序后，可以按规律查找 sort.Ints(nums) res := [][]int{} for i := range nums { // 避免添加重复的结果 // i&gt;0 是为了防止nums[i-1]溢出 if i &gt; 0 &amp;&amp; nums[i] == nums[i-1] { continue } l, r := i&#43;1, len(nums)-1 for l &lt; r { s := nums[i] &#43; nums[l] &#43; nums[r] switch { case s &lt; 0: // 较小的 l 需要变大 l&#43;&#43; case s &gt; 0: // 较大的 r 需要变小 r-- default: res = append(res, []int{nums[i], nums[l], nums[r]}) // 为避免重复添加，l 和 r 都需要移动到不同的元素上。 l, r = next(nums, l, r) } } } return res } func next(nums []int, l, r int) (int, int) { for l &lt; r { switch { case nums[l] == nums[l&#43;1]: l&#43;&#43; case nums[r] == nums[r-1]: r-- default: l&#43;&#43; r-- return l, r } } return l, r } } else { j&#43;&#43; for j &lt; k &amp;&amp; nums[j-1] == nums[j] { j&#43;&#43; } } } } return result }  "/>
-<meta name="twitter:site" content="@example"/>
+<meta name="twitter:site" content="@abser61207966"/>
 
         <meta property="og:title" content="三数之和" />
 <meta property="og:description" content=" 问题描述 给定一个包含 *n* 个整数的数组 nums，判断 nums 中是否存在三个元素 *a，b，c ，*使得 *a &#43; b &#43; c = *0 ？找出所有满足条件且不重复的三元组。
@@ -308,9 +308,6 @@
 
 
   
-  
-    
-  
 
 
         
@@ -318,7 +315,7 @@
         
 
         <a href="/blog/tokenbucket/" class="image featured">
-            <img src="/img/2018/12/pic02.jpg" alt="">
+            <img src="/date2018/12/pic02.jpg" alt="">
         </a>
     
 
@@ -347,9 +344,6 @@
 
 
   
-  
-    
-  
 
 
         
@@ -357,7 +351,7 @@
         
 
         <a href="/blog/produce-consume/" class="image featured">
-            <img src="/img/2018/12/pic01.jpg" alt="">
+            <img src="/date2018/12/pic01.jpg" alt="">
         </a>
     
 
@@ -462,7 +456,7 @@
 
 
 <li>
-  <a href="//twitter.com/share?url=%2fblog%2f%25E4%25B8%2589%25E6%2595%25B0%25E4%25B9%258B%25E5%2592%258C%2f&amp;text=%e4%b8%89%e6%95%b0%e4%b9%8b%e5%92%8c&amp;via=example" target="_blank" class="share-btn twitter">
+  <a href="//twitter.com/share?url=%2fblog%2f%25E4%25B8%2589%25E6%2595%25B0%25E4%25B9%258B%25E5%2592%258C%2f&amp;text=%e4%b8%89%e6%95%b0%e4%b9%8b%e5%92%8c&amp;via=abser61207966" target="_blank" class="share-btn twitter">
     <i class="fa fa-twitter"></i>
     <p>Twitter</p>
     </a>
@@ -559,7 +553,7 @@
 
 
 <li>
-  <a href="//twitter.com/share?url=%2fblog%2f%25E4%25B8%2589%25E6%2595%25B0%25E4%25B9%258B%25E5%2592%258C%2f&amp;text=%e4%b8%89%e6%95%b0%e4%b9%8b%e5%92%8c&amp;via=example" target="_blank" class="share-btn twitter">
+  <a href="//twitter.com/share?url=%2fblog%2f%25E4%25B8%2589%25E6%2595%25B0%25E4%25B9%258B%25E5%2592%258C%2f&amp;text=%e4%b8%89%e6%95%b0%e4%b9%8b%e5%92%8c&amp;via=abser61207966" target="_blank" class="share-btn twitter">
     <i class="fa fa-twitter"></i>
     <p>Twitter</p>
     </a>
@@ -840,9 +834,11 @@ func next(nums []int, l, r int) (int, int) {
 
 
 
-  <li><a href="//facebook.com/example" target="_blank" title="Facebook" class="fa fa-facebook"></a></li>
+  <li><a href="//facebook.com/Ari%20Abser" target="_blank" title="Facebook" class="fa fa-facebook"></a></li>
 
 
+
+  <li><a href="//plus.google.com/+abser@foxmail.com" target="_blank" title="Google+" class="fa fa-google-plus"></a></li>
 
 
 
@@ -874,7 +870,7 @@ func next(nums []int, l, r int) (int, int) {
 
 
 
-  <li><a href="//twitter.com/example" target="_blank" title="Twitter" class="fa fa-twitter"></a></li>
+  <li><a href="//twitter.com/abser61207966" target="_blank" title="Twitter" class="fa fa-twitter"></a></li>
 
 
 
@@ -945,6 +941,9 @@ func next(nums []int, l, r int) (int, int) {
 
 
   
+  
+    
+  
 
 
         
@@ -983,6 +982,9 @@ func next(nums []int, l, r int) (int, int) {
 
 
   
+  
+    
+  
 
 
         
@@ -990,7 +992,7 @@ func next(nums []int, l, r int) (int, int) {
         
 
         <a href="/blog/produce-consume/" class="image featured">
-            <img src="/img//pic01.jpg" alt="">
+            <img src="/img/2018/12/pic01.jpg" alt="">
         </a>
     
 
@@ -1370,9 +1372,11 @@ func next(nums []int, l, r int) (int, int) {
 
 
 
-  <li><a href="//facebook.com/example" target="_blank" title="Facebook" class="fa fa-facebook"></a></li>
+  <li><a href="//facebook.com/Ari%20Abser" target="_blank" title="Facebook" class="fa fa-facebook"></a></li>
 
 
+
+  <li><a href="//plus.google.com/+abser@foxmail.com" target="_blank" title="Google+" class="fa fa-google-plus"></a></li>
 
 
 
@@ -1404,7 +1408,7 @@ func next(nums []int, l, r int) (int, int) {
 
 
 
-  <li><a href="//twitter.com/example" target="_blank" title="Twitter" class="fa fa-twitter"></a></li>
+  <li><a href="//twitter.com/abser61207966" target="_blank" title="Twitter" class="fa fa-twitter"></a></li>
 
 
 

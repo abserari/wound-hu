@@ -74,7 +74,7 @@
 换句话说，第一个字符串的排列之一是第二个字符串的子串。
 示例1 输入: s1 = &quot;ab&quot; s2 = &quot;eidbaooo&quot; 输出: True 解释: s2 包含 s1 的排列之一 (&quot;ba&quot;).  示例2 输入: s1= &quot;ab&quot; s2 = &quot;eidboaoo&quot; 输出: False  注意：
  输入的字符串只包含小写字母 两个字符串的长度都在 [1, 10,000] 之间  思路 滑动窗口 实现 func checkInclusion(s1 string, s2 string) bool { n1 := len(s1) n2 := len(s2) if n1 &gt; n2 { return false } h1 := 0 h2 := 0 for i := 0; i &lt; n1; i&#43;&#43; { c1 := s1[i] - &#39;a&#39; c2 := s2[i] - &#39;a&#39; h1 &#43;= 1 &lt;&lt; c1 h2 &#43;= 1 &lt;&lt; c2 } if h1 == h2 { return true } for i := n1; i &lt; n2; i&#43;&#43; { cb := s2[i-n1] - &#39;a&#39; ce := s2[i] - &#39;a&#39; h2 &#43;= (1 &lt;&lt; ce) - (1 &lt;&lt; cb) if h1 == h2 { return true } } return false }  "/>
-<meta name="twitter:site" content="@example"/>
+<meta name="twitter:site" content="@abser61207966"/>
 
         <meta property="og:title" content="字符串的排列" />
 <meta property="og:description" content=" 问题描述 给定两个字符串 s1 和 s2，写一个函数来判断 s2 是否包含 s1 的排列。
@@ -466,7 +466,7 @@
 
 
 <li>
-  <a href="//twitter.com/share?url=%2fblog%2f%25E5%25AD%2597%25E7%25AC%25A6%25E4%25B8%25B2%25E7%259A%2584%25E6%258E%2592%25E5%2588%2597%2f&amp;text=%e5%ad%97%e7%ac%a6%e4%b8%b2%e7%9a%84%e6%8e%92%e5%88%97&amp;via=example" target="_blank" class="share-btn twitter">
+  <a href="//twitter.com/share?url=%2fblog%2f%25E5%25AD%2597%25E7%25AC%25A6%25E4%25B8%25B2%25E7%259A%2584%25E6%258E%2592%25E5%2588%2597%2f&amp;text=%e5%ad%97%e7%ac%a6%e4%b8%b2%e7%9a%84%e6%8e%92%e5%88%97&amp;via=abser61207966" target="_blank" class="share-btn twitter">
     <i class="fa fa-twitter"></i>
     <p>Twitter</p>
     </a>
@@ -563,7 +563,7 @@
 
 
 <li>
-  <a href="//twitter.com/share?url=%2fblog%2f%25E5%25AD%2597%25E7%25AC%25A6%25E4%25B8%25B2%25E7%259A%2584%25E6%258E%2592%25E5%2588%2597%2f&amp;text=%e5%ad%97%e7%ac%a6%e4%b8%b2%e7%9a%84%e6%8e%92%e5%88%97&amp;via=example" target="_blank" class="share-btn twitter">
+  <a href="//twitter.com/share?url=%2fblog%2f%25E5%25AD%2597%25E7%25AC%25A6%25E4%25B8%25B2%25E7%259A%2584%25E6%258E%2592%25E5%2588%2597%2f&amp;text=%e5%ad%97%e7%ac%a6%e4%b8%b2%e7%9a%84%e6%8e%92%e5%88%97&amp;via=abser61207966" target="_blank" class="share-btn twitter">
     <i class="fa fa-twitter"></i>
     <p>Twitter</p>
     </a>
@@ -831,9 +831,11 @@ func checkInclusion(s1 string, s2 string) bool {
 
 
 
-  <li><a href="//facebook.com/example" target="_blank" title="Facebook" class="fa fa-facebook"></a></li>
+  <li><a href="//facebook.com/Ari%20Abser" target="_blank" title="Facebook" class="fa fa-facebook"></a></li>
 
 
+
+  <li><a href="//plus.google.com/+abser@foxmail.com" target="_blank" title="Google+" class="fa fa-google-plus"></a></li>
 
 
 
@@ -865,7 +867,7 @@ func checkInclusion(s1 string, s2 string) bool {
 
 
 
-  <li><a href="//twitter.com/example" target="_blank" title="Twitter" class="fa fa-twitter"></a></li>
+  <li><a href="//twitter.com/abser61207966" target="_blank" title="Twitter" class="fa fa-twitter"></a></li>
 
 
 
@@ -1367,9 +1369,11 @@ func checkInclusion(s1 string, s2 string) bool {
 
 
 
-  <li><a href="//facebook.com/example" target="_blank" title="Facebook" class="fa fa-facebook"></a></li>
+  <li><a href="//facebook.com/Ari%20Abser" target="_blank" title="Facebook" class="fa fa-facebook"></a></li>
 
 
+
+  <li><a href="//plus.google.com/+abser@foxmail.com" target="_blank" title="Google+" class="fa fa-google-plus"></a></li>
 
 
 
@@ -1401,7 +1405,7 @@ func checkInclusion(s1 string, s2 string) bool {
 
 
 
-  <li><a href="//twitter.com/example" target="_blank" title="Twitter" class="fa fa-twitter"></a></li>
+  <li><a href="//twitter.com/abser61207966" target="_blank" title="Twitter" class="fa fa-twitter"></a></li>
 
 
 
