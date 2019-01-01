@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Itemizeds on Wound</title>
-    <link>/itemized/</link>
-    <description>Recent content in Itemizeds on Wound</description>
+    <title>golang on Wound</title>
+    <link>/categories/golang/</link>
+    <description>Recent content in golang on Wound</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 22 Jun 2017 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/itemized/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/categories/golang/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -18,15 +18,6 @@
       
       <guid>/itemized/item2/</guid>
       <description> </description>
-    </item>
-    
-    <item>
-      <title>Friends&#39; Cool Thing </title>
-      <link>/itemized/item1/</link>
-      <pubDate>Thu, 22 Jun 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/itemized/item1/</guid>
-      <description> Coooool&amp;#39;s Friends </description>
     </item>
     
   </channel>
