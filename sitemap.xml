@@ -361,12 +361,6 @@
   </url>
   
   <url>
-    <loc>/categories/golang/</loc>
-    <lastmod>2018-10-22T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>/categories/k8s/</loc>
     <lastmod>2018-12-08T13:45:31+08:00</lastmod>
     <priority>0</priority>

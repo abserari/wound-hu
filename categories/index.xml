@@ -102,15 +102,6 @@
     </item>
     
     <item>
-      <title>golang</title>
-      <link>/categories/golang/</link>
-      <pubDate>Mon, 22 Oct 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/categories/golang/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>k8s</title>
       <link>/categories/k8s/</link>
       <pubDate>Sat, 08 Dec 2018 13:45:31 +0800</pubDate>
