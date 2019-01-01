@@ -631,7 +631,7 @@ type Like struct { ID int `gorm:&amp;quot;primary_key&amp;quot;` Ip string `gorm
       <pubDate>Mon, 22 Oct 2018 00:00:00 +0000</pubDate>
       
       <guid>/itemized/item2/</guid>
-      <description> </description>
+      <description>  </description>
     </item>
     
     <item>
