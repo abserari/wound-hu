@@ -628,9 +628,18 @@ type Like struct { ID int `gorm:&amp;quot;primary_key&amp;quot;` Ip string `gorm
     <item>
       <title>Deep into Golang</title>
       <link>/itemized/item2/</link>
-      <pubDate>Thu, 22 Jun 2017 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 22 Oct 2018 00:00:00 +0000</pubDate>
       
       <guid>/itemized/item2/</guid>
+      <description> </description>
+    </item>
+    
+    <item>
+      <title>Deep into Golang</title>
+      <link>/golang/item2/</link>
+      <pubDate>Thu, 22 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/golang/item2/</guid>
       <description> </description>
     </item>
     

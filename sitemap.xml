@@ -239,6 +239,11 @@
   
   <url>
     <loc>/itemized/item2/</loc>
+    <lastmod>2018-10-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/golang/item2/</loc>
     <lastmod>2017-06-22T00:00:00+00:00</lastmod>
   </url>
   
@@ -308,6 +313,12 @@
   </url>
   
   <url>
+    <loc>/golang/</loc>
+    <lastmod>2017-06-22T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/categories/gorm/</loc>
     <lastmod>2018-11-11T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -321,7 +332,7 @@
   
   <url>
     <loc>/itemized/</loc>
-    <lastmod>2017-06-22T00:00:00+00:00</lastmod>
+    <lastmod>2018-10-22T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -362,7 +373,7 @@
   
   <url>
     <loc>/categories/golang/</loc>
-    <lastmod>2017-06-22T00:00:00+00:00</lastmod>
+    <lastmod>2018-10-22T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

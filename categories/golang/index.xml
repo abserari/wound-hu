@@ -6,7 +6,7 @@
     <description>Recent content in golang on Wound</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 22 Jun 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 22 Oct 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/categories/golang/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,9 +14,18 @@
     <item>
       <title>Deep into Golang</title>
       <link>/itemized/item2/</link>
-      <pubDate>Thu, 22 Jun 2017 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 22 Oct 2018 00:00:00 +0000</pubDate>
       
       <guid>/itemized/item2/</guid>
+      <description> </description>
+    </item>
+    
+    <item>
+      <title>Deep into Golang</title>
+      <link>/golang/item2/</link>
+      <pubDate>Thu, 22 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/golang/item2/</guid>
       <description> </description>
     </item>
     
