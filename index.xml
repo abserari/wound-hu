@@ -6,10 +6,52 @@
     <description>Recent content on Wound</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 19 Dec 2018 17:38:01 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 04 Jan 2019 16:52:25 +0800</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Http权威指南阅读</title>
+      <link>/blog/http%E6%9D%83%E5%A8%81%E6%8C%87%E5%8D%97%E9%98%85%E8%AF%BB/</link>
+      <pubDate>Fri, 04 Jan 2019 16:52:25 +0800</pubDate>
+      
+      <guid>/blog/http%E6%9D%83%E5%A8%81%E6%8C%87%E5%8D%97%E9%98%85%E8%AF%BB/</guid>
+      <description>《HTTP 权威指南》阅读 Overview 说实话，看这本书的时候是2019年，我认为她的部分信息已经过时了，或者说是完全没有意义了。
+但是作为现在网络传输信息的核心，总有一些东西是一直贯彻了几十年直到今日的。所以在这里写下读后感。
+包括有哪些是我认为还能读的以及我的感受
+Part One 这是关于 HTTP 的概述，是现在web的基础，只要现在还是使用这个协议，那么这一块一定是有价值的。只是说这部分有价值的东西其实日常的网络工程中能了解到，或者在一些百科上也能知道 * 关于URL的定义 * 资源定位 * 关于TCP/IP的使用 * 链接的建立 * 关于Web使用的组件 * 代理 * 缓存 * 网关 * 隧道 * Agent代理 * 关于报文的组成结构和C/S模式下的报文交互 * 方法 * 状态码
+Part Two 这一部分是关于HTTP的结构，关于HTTP各种情况下是怎样交互的&amp;ndash;使用不同的组件是什么情况
+主要用一些网络知识的拓扑图让你理解了你从客户端发出的请求是经历的怎样的过程到达服务端又是怎样回来的。这对理解网络之间的文件传输概念提供了很好的构建方式。
+Part Three 这一部分讲了怎样在交互中保证隐私，即安全。实际上是怎样在HTTP传输的时候能够识别出来谁是谁来保护信息。
+讲到了Cookie和基本认证和摘要认证、HTTPS。
+其中最重要的应为Cookies和HTTPS。Cookies实际上就是存储一些信息来帮助认证客户端属性。而HTTPS则是在HTTP和TCP两层之间加了一层SSL加密，使得信息通过加密传输
+Part Four 这部分是关于协议和标准的事情，我个人认为有些过时同时也是我们现在不需要了解的一段。正如图灵图书上写的
+站在巨人的肩膀上
+我们不应该注重于已经规范好的细枝末节上的实现，而是根据认真的使用他们，整合他们或者创新出的新的方式。
+当然建立新标准也是很重要的事情
+Part Five 这是关于网页内容方面的部分。
+从这里你可以了解到网络上经常说到的重定向，DNS ，CDN 等各种名词其含义和起源，它们为什么要被这样设定，希望达到的是什么效果。
+和日志监控，用来分析网站&amp;ndash;实际上现在我们只需要用别人的网站分析服务就好，没有必要和精力去自己耗力。
+最后附录里说明了一些规定
+如什么状态码代表什么情况，首部即header中的信息通常可以从名字判断出他们的信息是用来做什么的，然后是一些编码，语言和认证标识
+拓展 HTTP或许以后会被取代，或者说被分掉大量的市场份额，比如这个
+星际文件传输网络：https://achainofblocks.com/2018/10/05/ipfs-interplanetary-file-system-simply-explained/</description>
+    </item>
+    
+    <item>
+      <title>使用Go进行集成测试的MySQL Docker容器</title>
+      <link>/blog/%E4%BD%BF%E7%94%A8go%E8%BF%9B%E8%A1%8C%E9%9B%86%E6%88%90%E6%B5%8B%E8%AF%95%E7%9A%84mysql-docker%E5%AE%B9%E5%99%A8/</link>
+      <pubDate>Tue, 01 Jan 2019 12:27:27 +0800</pubDate>
+      
+      <guid>/blog/%E4%BD%BF%E7%94%A8go%E8%BF%9B%E8%A1%8C%E9%9B%86%E6%88%90%E6%B5%8B%E8%AF%95%E7%9A%84mysql-docker%E5%AE%B9%E5%99%A8/</guid>
+      <description>使用Go进行集成测试的MySQL Docker容器 原文链接 作者：Mitesh 翻译整理 翻译整理：Abser
+Overview Bug在实际生产中常常代价高昂。我们可以使用测试用例来在开发过程中捕获它们，以降低我们的成本。测试在所有软件中都非常重要。这有助于确保代码的正确性并有助于防止恶化。单元测试有助于隔离测试组件，而无需任何外部依赖。但是单元测试不足以确保我们能够拥有经过良好测试的稳定系统。实际上，在集成不同组件的过程中会发生故障。如果我们不在真实的环境上测试数据库后端的应用程序将面临的问题，我们可能永远不会注意到由于事务未提交，数据库的错误版本等问题。集成测试在端到端测试中扮演了重要角色。
+在当今世界，我们编写了许多软件应用程序，其中包含数据库作为存储后端。模拟这些数据库调用以进行单元测试可能很麻烦。在纲要中进行小的更改可能会导致重写部分或全部。因为查询不会连接到实际的数据库引擎，因此不会验证查询的语法或约束。模拟每个查询都可能导致重复工作。为避免这种情况，我们应该测试一个真正的数据库，在测试完成后可以将其销毁。Docker非常适合运行测试用例，因为我们可以在几秒钟内运行容器并在完成后终止它们。
+安装docker 让我们了解如何启动MySQL docker容器并使用它来使用go代码进行测试。我们首先需要确保运行我们的测试用例的系统安装了docker，可以通过运行命令“ docker ps ” 来检查。如果未安装docker，请从此处安装docker 。
+func（d * Docker）isInstalled（）bool { command：= exec.Command（“docker”，“ps”） err：= command.Run（） if err！= nil { return false } return true }  运行容器 安装docker之后，我们需要使用用户和密码运行MySQL容器，该用户和密码可用于连接MySQL服务器。
+docker run --name our-mysql-container -e MYSQL_ROOT_PASSWORD = root -e MYSQL_USER = gouser -e MYSQL_PASSWORD = gopassword -e MYSQL_DATABASE = godb -p 3306：3306 --tmpfs / var / lib / mysql mysql：5.7  这将运行MySQL版本5.</description>
+    </item>
     
     <item>
       <title>TokenBucket</title>
