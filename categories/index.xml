@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Wound</title>
+    <title>Categories on Wound</title>
     <link>/categories/</link>
-    <description>Recent content on Wound</description>
+    <description>Recent content in Categories on Wound</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 08 Dec 2018 12:55:29 +0800</lastBuildDate>
@@ -12,25 +12,183 @@
     
     
     <item>
-      <title>最长公共前缀</title>
-      <link>/blog/%E6%9C%80%E9%95%BF%E5%85%AC%E5%85%B1%E5%89%8D%E7%BC%80/</link>
+      <title></title>
+      <link>/categories/</link>
       <pubDate>Sat, 08 Dec 2018 12:55:29 +0800</pubDate>
       
-      <guid>/blog/%E6%9C%80%E9%95%BF%E5%85%AC%E5%85%B1%E5%89%8D%E7%BC%80/</guid>
-      <description> 问题描述 编写一个函数来查找字符串数组中的最长公共前缀。
-如果不存在公共前缀，返回空字符串 &amp;quot;&amp;quot;。
-示例 1 输入: [&amp;quot;flower&amp;quot;,&amp;quot;flow&amp;quot;,&amp;quot;flight&amp;quot;] 输出: &amp;quot;fl&amp;quot;  示例 2 输入: [&amp;quot;dog&amp;quot;,&amp;quot;racecar&amp;quot;,&amp;quot;car&amp;quot;] 输出: &amp;quot;&amp;quot; 解释: 输入不存在公共前缀。  说明 所有输入只包含小写字母 a-z 。
-思路 按需匹配即可，遇到不符即可立即返回
-实现 func longestCommonPrefix(strs []string) string { short := shortest(strs) for i, r := range short { for j := 0; j &amp;lt; len(strs); j++ { if strs[j][i] != byte(r) { return strs[j][:i] } } } return short } func shortest(strs []string) string { if len(strs) == 0 { return &amp;quot;&amp;quot; } res := strs[0] for _, s := range strs { if len(res) &amp;gt; len(s) { res = s } } return res }  </description>
+      <guid>/categories/</guid>
+      <description></description>
     </item>
     
     <item>
-      <title>Friends&#39; Cool Thing </title>
-      <link>/itemized/item1/</link>
-      <pubDate>Thu, 22 Jun 2017 00:00:00 +0000</pubDate>
+      <title>Algorithm</title>
+      <link>/categories/algorithm/</link>
+      <pubDate>Wed, 19 Dec 2018 17:38:01 +0800</pubDate>
       
-      <guid>/itemized/item1/</guid>
-      <description> Coooool&amp;#39;s Friends </description>
+      <guid>/categories/algorithm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>C</title>
+      <link>/categories/c/</link>
+      <pubDate>Fri, 14 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/c/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Go</title>
+      <link>/categories/go/</link>
+      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/go/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Gorm</title>
+      <link>/categories/gorm/</link>
+      <pubDate>Sun, 11 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/gorm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hugo</title>
+      <link>/categories/hugo/</link>
+      <pubDate>Sun, 25 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/hugo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>IPFS</title>
+      <link>/categories/ipfs/</link>
+      <pubDate>Sat, 19 Jan 2019 15:37:49 +0800</pubDate>
+      
+      <guid>/categories/ipfs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Jekyll</title>
+      <link>/categories/jekyll/</link>
+      <pubDate>Mon, 10 Mar 2014 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/jekyll/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Unix编程</title>
+      <link>/categories/unix%E7%BC%96%E7%A8%8B/</link>
+      <pubDate>Fri, 14 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/unix%E7%BC%96%E7%A8%8B/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>acl</title>
+      <link>/categories/acl/</link>
+      <pubDate>Thu, 13 Dec 2018 18:41:35 +0800</pubDate>
+      
+      <guid>/categories/acl/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>go</title>
+      <link>/categories/go/</link>
+      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/go/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>http</title>
+      <link>/categories/http/</link>
+      <pubDate>Fri, 04 Jan 2019 16:52:25 +0800</pubDate>
+      
+      <guid>/categories/http/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>k8s</title>
+      <link>/categories/k8s/</link>
+      <pubDate>Sat, 08 Dec 2018 13:45:31 +0800</pubDate>
+      
+      <guid>/categories/k8s/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>leetcode-hard</title>
+      <link>/categories/leetcode-hard/</link>
+      <pubDate>Sun, 09 Dec 2018 17:07:54 +0800</pubDate>
+      
+      <guid>/categories/leetcode-hard/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>leetcode-middle</title>
+      <link>/categories/leetcode-middle/</link>
+      <pubDate>Wed, 12 Dec 2018 13:09:34 +0800</pubDate>
+      
+      <guid>/categories/leetcode-middle/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>leetcode-primary</title>
+      <link>/categories/leetcode-primary/</link>
+      <pubDate>Sat, 08 Dec 2018 12:53:52 +0800</pubDate>
+      
+      <guid>/categories/leetcode-primary/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>mysql</title>
+      <link>/categories/mysql/</link>
+      <pubDate>Tue, 01 Jan 2019 12:27:27 +0800</pubDate>
+      
+      <guid>/categories/mysql/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ratelimit</title>
+      <link>/categories/ratelimit/</link>
+      <pubDate>Wed, 19 Dec 2018 17:38:01 +0800</pubDate>
+      
+      <guid>/categories/ratelimit/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>redis</title>
+      <link>/categories/redis/</link>
+      <pubDate>Sun, 25 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/redis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ssh</title>
+      <link>/categories/ssh/</link>
+      <pubDate>Fri, 07 Dec 2018 12:27:27 +0800</pubDate>
+      
+      <guid>/categories/ssh/</guid>
+      <description></description>
     </item>
     
   </channel>
