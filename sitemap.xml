@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/blog/kickstart%E6%8C%87%E5%8D%97/</loc>
+    <lastmod>2019-01-24T15:43:05+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/blog/ipfs%E8%AE%B2%E8%A7%A3/</loc>
     <lastmod>2019-01-19T15:37:49+08:00</lastmod>
   </url>
@@ -296,7 +301,7 @@
   
   <url>
     <loc>/blog/</loc>
-    <lastmod>2019-01-19T15:37:49+08:00</lastmod>
+    <lastmod>2019-01-24T15:43:05+08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -365,7 +370,7 @@
   
   <url>
     <loc>/</loc>
-    <lastmod>2019-01-19T15:37:49+08:00</lastmod>
+    <lastmod>2019-01-24T15:43:05+08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -378,6 +383,12 @@
   <url>
     <loc>/categories/go/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/guide/</loc>
+    <lastmod>2019-01-24T15:43:05+08:00</lastmod>
     <priority>0</priority>
   </url>
   
