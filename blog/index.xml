@@ -6,10 +6,25 @@
     <description>Recent content in Blogs on Wound</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 12 Mar 2019 12:06:38 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 19 Mar 2019 14:34:55 +0800</lastBuildDate>
     
 	<atom:link href="/blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Bytes包阅读</title>
+      <link>/blog/bytes%E5%8C%85%E9%98%85%E8%AF%BB/</link>
+      <pubDate>Tue, 19 Mar 2019 14:34:55 +0800</pubDate>
+      
+      <guid>/blog/bytes%E5%8C%85%E9%98%85%E8%AF%BB/</guid>
+      <description>bytes 笔记 
+byte.go 
+Overview 操作字节切片的函数，与字符串 strings 包类似。
+
+核心函数 
+genSplit(s, sep []byte, sepSave, n int) [][]byte 切分切片使用的最核心的函数。
+有四个参数，第一个是被切切片，第二个是分隔符，第三个是选择包含分隔符在内往后几个字节一起作为子切片，最后一个是最多通过n个分隔符来切分 // Generic split: splits after each instance of sep, // including sepSave bytes of sep in the subslices. // 将含有 sep 的字节切片全部单独切开，最多切 n 个，同时 匹配到时候多切 sepSave 个字节一起切进同一个切片 func genSplit(s, sep []byte, sepSave, n int) [][]byte { if n == 0 { return nil } if len(sep) == 0 { return explode(s, n) } if n &amp;lt; 0 { n = Count(s, sep) + 1 } a := make([][]byte, n) n-- i := 0 for i &amp;lt; n { m := Index(s, sep) if m &amp;lt; 0 { break } a[i] = s[: m+sepSave : m+sepSave] s = s[m+len(sep):] i++ } a[i] = s return a[:i+1] }</description>
+    </item>
     
     <item>
       <title>Studycoding</title>
